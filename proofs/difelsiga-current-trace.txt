@@ -1,0 +1,226 @@
+difelsiga: 3 mandatory hypotheses, 47 labels, 334 letters
+
+    1  [hyp] class S
+    2  csiga
+    3  crn
+    4  cuni
+    5  wcel
+       ↳ saved as reference 1 (= step 5, wcel)
+    6  [hyp] class A
+    7  [hyp] class S
+    8  wcel
+       ↳ saved as reference 2 (= step 8, wcel)
+    9  [hyp] class B
+   10  [hyp] class S
+   11  wcel
+       ↳ saved as reference 3 (= step 11, wcel)
+   12  w3a
+       ↳ saved as reference 4 (= step 12, w3a)
+   13  [hyp] class A
+   14  [hyp] class B
+   15  cdif
+       ↳ saved as reference 5 (= step 15, cdif)
+   16  [hyp] class S
+   17  cuni
+       ↳ saved as reference 6 (= step 17, cuni)
+   18  [hyp] class B
+   19  cdif
+       ↳ saved as reference 7 (= step 19, cdif)
+   20  [hyp] class A
+   21  cpr
+       ↳ saved as reference 8 (= step 21, cpr)
+   22  cint
+       ↳ saved as reference 9 (= step 22, cint)
+   23  [hyp] class S
+   24  REUSE step 12
+   25  REUSE step 15
+   26  REUSE step 19
+   27  [hyp] class A
+   28  cin
+       ↳ saved as reference 10 (= step 28, cin)
+   29  REUSE step 22
+   30  REUSE step 12
+   31  REUSE step 8
+   32  [hyp] class A
+   33  REUSE step 17
+   34  wss
+   35  REUSE step 15
+   36  REUSE step 28
+   37  wceq
+   38  REUSE step 5
+   39  REUSE step 8
+   40  REUSE step 11
+   41  simp2
+       ↳ saved as reference 11 (= step 41, simp2)
+   42  [hyp] class A
+   43  [hyp] class S
+   44  elssuni
+   45  [hyp] class A
+   46  [hyp] class B
+   47  REUSE step 17
+   48  difin2
+   49  3syl
+   50  REUSE step 12
+   51  REUSE step 19
+   52  [hyp] class S
+   53  wcel
+       ↳ saved as reference 12 (= step 53, wcel)
+   54  REUSE step 8
+   55  REUSE step 22
+   56  REUSE step 28
+   57  wceq
+   58  REUSE step 5
+   59  REUSE step 11
+   60  REUSE step 53
+   61  REUSE step 8
+   62  REUSE step 5
+   63  REUSE step 17
+   64  vx
+   65  cv
+       ↳ saved as reference 13 (= step 65, cv)
+   66  cdif
+       ↳ saved as reference 14 (= step 66, cdif)
+   67  [hyp] class S
+   68  wcel
+       ↳ saved as reference 15 (= step 68, wcel)
+   69  vx
+   70  [hyp] class S
+   71  wral
+       ↳ saved as reference 16 (= step 71, wral)
+   72  REUSE step 11
+   73  REUSE step 53
+   74  REUSE step 5
+   75  REUSE step 17
+   76  [hyp] class S
+   77  wcel
+       ↳ saved as reference 17 (= step 77, wcel)
+   78  REUSE step 71
+   79  REUSE step 65
+   80  com
+   81  cdom
+   82  wbr
+   83  REUSE step 65
+   84  cuni
+   85  [hyp] class S
+   86  wcel
+   87  wi
+   88  vx
+   89  [hyp] class S
+   90  cpw
+       ↳ saved as reference 18 (= step 90, cpw)
+   91  wral
+       ↳ saved as reference 19 (= step 91, wral)
+   92  REUSE step 5
+   93  [hyp] class S
+   94  REUSE step 17
+   95  cpw
+   96  wss
+   97  REUSE step 77
+   98  REUSE step 71
+   99  REUSE step 91
+  100  w3a
+  101  vx
+  102  [hyp] class S
+  103  isrnsigau
+  104  simprd
+  105  simp2d
+  106  REUSE step 68
+  107  REUSE step 53
+  108  vx
+  109  [hyp] class B
+  110  [hyp] class S
+  111  REUSE step 65
+  112  [hyp] class B
+  113  wceq
+  114  REUSE step 66
+  115  REUSE step 19
+  116  [hyp] class S
+  117  REUSE step 65
+  118  [hyp] class B
+  119  REUSE step 17
+  120  difeq2
+  121  eleq1d
+  122  rspccva
+  123  sylan
+  124  3adant2
+       ↳ saved as reference 20 (= step 124, 3adant2)
+  125  REUSE step 41
+  126  REUSE step 19
+  127  [hyp] class A
+  128  [hyp] class S
+  129  [hyp] class S
+  130  intprg
+  131  syl2anc
+  132  eqtr4d
+  133  REUSE step 12
+  134  REUSE step 5
+  135  REUSE step 21
+  136  REUSE step 90
+  137  wcel
+       ↳ saved as reference 21 (= step 137, wcel)
+  138  REUSE step 21
+  139  com
+  140  cdom
+  141  wbr
+       ↳ saved as reference 22 (= step 141, wbr)
+  142  REUSE step 21
+  143  c0
+  144  wne
+       ↳ saved as reference 23 (= step 144, wne)
+  145  REUSE step 22
+  146  [hyp] class S
+  147  wcel
+  148  REUSE step 5
+  149  REUSE step 8
+  150  REUSE step 11
+  151  simp1
+  152  REUSE step 12
+  153  REUSE step 21
+  154  [hyp] class S
+  155  wss
+       ↳ saved as reference 24 (= step 155, wss)
+  156  REUSE step 137
+  157  REUSE step 12
+  158  REUSE step 53
+  159  REUSE step 8
+  160  REUSE step 155
+  161  REUSE step 124
+  162  REUSE step 41
+  163  REUSE step 19
+  164  [hyp] class A
+  165  [hyp] class S
+  166  prssi
+  167  syl2anc
+  168  REUSE step 21
+  169  [hyp] class S
+  170  REUSE step 19
+  171  [hyp] class A
+  172  prex
+  173  elpw
+  174  sylibr
+  175  REUSE step 12
+  176  REUSE step 53
+  177  REUSE step 8
+  178  REUSE step 141
+  179  REUSE step 124
+  180  REUSE step 41
+  181  REUSE step 19
+  182  [hyp] class A
+  183  [hyp] class S
+  184  [hyp] class S
+  185  prct
+  186  syl2anc
+  187  REUSE step 12
+  188  REUSE step 53
+  189  REUSE step 144
+  190  REUSE step 124
+  191  REUSE step 19
+  192  [hyp] class A
+  193  [hyp] class S
+  194  prnzg
+  195  syl
+  196  REUSE step 21
+  197  [hyp] class S
+  198  sigaclci
+  199  syl22anc
+  200  eqeltrd
