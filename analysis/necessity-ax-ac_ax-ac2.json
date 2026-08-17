@@ -1,0 +1,2348 @@
+{
+ "database": "set.mm",
+ "axioms": [
+  "ax-ac",
+  "ax-ac2"
+ ],
+ "proved": 47655,
+ "reach": [
+  "1arithufd",
+  "1arithufdlem1",
+  "1arithufdlem4",
+  "2sqr3nconstr",
+  "abrexctf",
+  "abrexdom",
+  "abrexdom2",
+  "abrexdom2jm",
+  "abrexdomjm",
+  "ac2",
+  "ac3",
+  "ac4",
+  "ac4c",
+  "ac5",
+  "ac5b",
+  "ac6",
+  "ac6c4",
+  "ac6c5",
+  "ac6gf",
+  "ac6mapd",
+  "ac6n",
+  "ac6s",
+  "ac6s2",
+  "ac6s3",
+  "ac6s3f",
+  "ac6s4",
+  "ac6s5",
+  "ac6s6",
+  "ac6s6f",
+  "ac6sf",
+  "ac6sf2",
+  "ac6sg",
+  "ac7",
+  "ac7g",
+  "ac8",
+  "ac8prim",
+  "ac9",
+  "ac9s",
+  "aciunf1",
+  "aciunf1lem",
+  "ackm",
+  "acsdomd",
+  "acsexdimd",
+  "acsinfd",
+  "acsinfdimd",
+  "acsmap2d",
+  "acsmapd",
+  "acunirnmpt",
+  "acunirnmpt2",
+  "acunirnmpt2f",
+  "aean",
+  "aleph1",
+  "aleph1irr",
+  "aleph1re",
+  "alephexp2",
+  "alephom",
+  "alephreg",
+  "alephsucpw",
+  "alephval2",
+  "alexsubALT",
+  "alexsubALTlem2",
+  "alexsubALTlem4",
+  "algextdeg",
+  "algextdeglem4",
+  "algextdeglem6",
+  "algextdeglem8",
+  "assafld",
+  "assalactf1o",
+  "assarrginv",
+  "axac",
+  "axac10",
+  "axac2",
+  "axac3",
+  "axaci",
+  "axacnd",
+  "axacndlem4",
+  "axacndlem5",
+  "axacprim",
+  "axdc",
+  "axdclem2",
+  "bayesth",
+  "bdayfin",
+  "bdayfinbnd",
+  "bdayfinbndlem1",
+  "bdayfinbndlem2",
+  "bdayfinlem",
+  "bj-grur1",
+  "boolesineq",
+  "borelmbl",
+  "bormflebmf",
+  "brdom3",
+  "brdom4",
+  "brdom5",
+  "brdom6disj",
+  "brdom7disj",
+  "canth3",
+  "carageniuncl",
+  "carageniuncllem2",
+  "caragensal",
+  "caragenunicl",
+  "caratheodory",
+  "caratheodorylem2",
+  "carddom",
+  "carden",
+  "cardeq0",
+  "cardeqv",
+  "cardf",
+  "cardid",
+  "cardidd",
+  "cardidg",
+  "cardmin",
+  "cardsdom",
+  "cardval",
+  "carsgclctun",
+  "carsgclctunlem2",
+  "carsgclctunlem3",
+  "carsgsiga",
+  "ccfldextdgrr",
+  "cfpwsdom",
+  "cldssbrsiga",
+  "cmpcref",
+  "cmpfiref",
+  "cmppcmp",
+  "cndprob01",
+  "cndprobin",
+  "cndprobnul",
+  "cndprobprob",
+  "cndprobtot",
+  "cnmbfm",
+  "coinflippvt",
+  "constrcon",
+  "constrelextdg2",
+  "constrext2chn",
+  "constrext2chnlem",
+  "constrextdg2",
+  "constrextdg2lem",
+  "cos9thpinconstr",
+  "cos9thpinconstrlem2",
+  "ctbssinf",
+  "ctvonmbl",
+  "cyc3genpm",
+  "cyc3genpmlem",
+  "decsmf",
+  "dflring3",
+  "dflring4",
+  "dflringlem",
+  "dfufd2",
+  "dfuniv2",
+  "dfz12s2",
+  "difelsiga",
+  "dimcl",
+  "dimkerim",
+  "dimlssid",
+  "dimpropd",
+  "dimval",
+  "disjinfi",
+  "dmct",
+  "dmovnsal",
+  "dmvon",
+  "dominfac",
+  "domtri",
+  "drngdimgt0",
+  "drngmxidlr",
+  "dstfrvclim1",
+  "dstfrvinc",
+  "dstfrvunirn",
+  "dstrvprob",
+  "dya2icobrsiga",
+  "dya2iocbrsiga",
+  "dya2iocct",
+  "dynkin",
+  "eln0s2",
+  "elnanelprv",
+  "elrgspnsubrun",
+  "elrgspnsubrunlem2",
+  "elrspunidl",
+  "elwspths2on",
+  "elwspths2spth",
+  "elwwlks2",
+  "elwwlks2on",
+  "entri2",
+  "entri3",
+  "entric",
+  "esumiun",
+  "eulerpart",
+  "eulerpartgbij",
+  "eulerpartlem1",
+  "eulerpartlemgf",
+  "eulerpartlemgs2",
+  "eulerpartlemgvv",
+  "eulerpartlemn",
+  "ex-sategoel",
+  "ex-sategoelel",
+  "ex-sategoelel12",
+  "ex-sategoelelomsuc",
+  "extdg1b",
+  "extdg1id",
+  "extdgcl",
+  "extdgfialg",
+  "extdgfialglem1",
+  "extdggt0",
+  "extdgid",
+  "extdgmul",
+  "fedgmul",
+  "ffsrn",
+  "ficard",
+  "filssufil",
+  "filufint",
+  "fimact",
+  "fin71ac",
+  "finextalg",
+  "finexttrb",
+  "fldext2chn",
+  "fldext2rspun",
+  "fldextrspundgdvds",
+  "fldextrspundgdvdslem",
+  "fldextrspundgle",
+  "fldextrspundglemul",
+  "fldextrspunfld",
+  "fldextrspunlem1",
+  "fldextrspunlem2",
+  "fldextrspunlsp",
+  "fldextrspunlsplem",
+  "fldlring",
+  "fnct",
+  "fnpreimac",
+  "fnrndomg",
+  "fodom",
+  "fodomb",
+  "fodomg",
+  "foresf1o",
+  "fpwrelmapffs",
+  "fpwrelmapffslem",
+  "frgr2wwlkeqm",
+  "frlmdim",
+  "fsumiunle",
+  "fsumiunss",
+  "gch-kn",
+  "grothprim",
+  "grucollcld",
+  "gruex",
+  "gruina",
+  "grumnud",
+  "grumnudlem",
+  "grumnueq",
+  "grur1",
+  "grur1a",
+  "grurankcld",
+  "gruscottcld",
+  "grutsk",
+  "grutsk1",
+  "hausmapdom",
+  "hauspwdom",
+  "hgt750lema",
+  "hgt750leme",
+  "hoimbl",
+  "hoimbl2",
+  "hoimbllem",
+  "hspmbl",
+  "iccvonmbl",
+  "iccvonmbllem",
+  "imadomg",
+  "imambfm",
+  "inaex",
+  "inagrud",
+  "inaprc",
+  "inar1",
+  "inatsk",
+  "indexdom",
+  "inelsiga",
+  "infinf",
+  "infinfg",
+  "infmap",
+  "infxpidm",
+  "ioovonmbl",
+  "islinds4",
+  "issmfge",
+  "issmfgelem",
+  "issmfgt",
+  "issmfgtd",
+  "issmfgtlem",
+  "issmfle",
+  "issmfle2d",
+  "issmfled",
+  "issmflelem",
+  "isvonmbl",
+  "iundom",
+  "kardcard",
+  "konigth",
+  "konigthlem",
+  "krull",
+  "krullndrng",
+  "lbsex",
+  "lbsext",
+  "lbslelsp",
+  "ldgenpisys",
+  "ldsysgenld",
+  "lmicdim",
+  "lmimdim",
+  "locfinref",
+  "locfinreflem",
+  "lsatdim",
+  "lssdimle",
+  "lvecdim",
+  "lvecdim0",
+  "lvecdim0i",
+  "lvecendof1f1o",
+  "lvecisfrlm",
+  "madefi",
+  "matdim",
+  "mbfmco2",
+  "mbfpsssmf",
+  "mblvon",
+  "meascnbl",
+  "measinb",
+  "measinb2",
+  "measinblem",
+  "measiun",
+  "measiuns",
+  "measssd",
+  "measun",
+  "measunl",
+  "measvuni",
+  "measvunilem",
+  "measxun2",
+  "minregex",
+  "minregex2",
+  "mpocti",
+  "mptct",
+  "mptctf",
+  "mxidlnzrb",
+  "n0cutlt",
+  "nlpfvineqsn",
+  "nmobndseqiALT",
+  "nmounbseqiALT",
+  "nsssmfmbf",
+  "nsssmfmbflem",
+  "numth",
+  "numth2",
+  "numth3",
+  "numthcor",
+  "oldfi",
+  "oldfib",
+  "omeiunle",
+  "omeiunlempt",
+  "omeiunltfirp",
+  "omsmeas",
+  "omssubadd",
+  "ondomon",
+  "onltn0s",
+  "onsfi",
+  "opnvonmbl",
+  "opnvonmbllem2",
+  "orrvccel",
+  "orvccel",
+  "orvcgteel",
+  "orvclteel",
+  "ovnome",
+  "ovnsplit",
+  "ovnsubadd",
+  "ovnsubadd2",
+  "ovnsubadd2lem",
+  "ovnsubaddlem1",
+  "ovnsubaddlem2",
+  "pcmplfinf",
+  "permac8prim",
+  "pibt2",
+  "pmeasadd",
+  "prob01",
+  "probdif",
+  "probdsb",
+  "probinc",
+  "probmeasb",
+  "probtotrnd",
+  "probun",
+  "probvalrnd",
+  "prv0",
+  "prv1n",
+  "psmeasure",
+  "psmeasurelem",
+  "ptcls",
+  "ptcmp",
+  "ptpconn",
+  "pwcfsdom",
+  "pwinfi3",
+  "qusdimsum",
+  "r1omALT",
+  "r1omtsk",
+  "r1tskina",
+  "rabfodom",
+  "reff",
+  "rhmpreimacn",
+  "rlmdim",
+  "rnct",
+  "rr-groth",
+  "rr-grothprim",
+  "rr-grothprimbi",
+  "rr-grothshort",
+  "rr-grothshortbi",
+  "rrnmbl",
+  "rrvadd",
+  "rrvmulc",
+  "rrvsum",
+  "rrxdim",
+  "rspectps",
+  "rtelextdg2",
+  "rtelextdg2lem",
+  "s3wwlks2on",
+  "sate0fv0",
+  "satef",
+  "satefvfmla0",
+  "satefvfmla1",
+  "sategoelfv",
+  "sategoelfvb",
+  "satfun",
+  "satfvel",
+  "sdomsdomcard",
+  "sge0iun",
+  "sge0iunmpt",
+  "sge0iunmptlemre",
+  "sge0xp",
+  "sibfinima",
+  "sibfof",
+  "sigaclci",
+  "sigaclcuni",
+  "sigainb",
+  "sigaldsys",
+  "sigapildsys",
+  "sigapisys",
+  "sitgaddlemb",
+  "sitmcl",
+  "sitmf",
+  "smf2id",
+  "smfadd",
+  "smfaddlem2",
+  "smfco",
+  "smfconst",
+  "smfdiv",
+  "smfdivdmmbl",
+  "smfdivdmmbl2",
+  "smfdmmblpimne",
+  "smfinf",
+  "smfinfdmmbl",
+  "smfinfdmmbllem",
+  "smfinflem",
+  "smfinfmpt",
+  "smflim",
+  "smflim2",
+  "smfliminf",
+  "smfliminflem",
+  "smfliminfmpt",
+  "smflimlem6",
+  "smflimmpt",
+  "smflimsup",
+  "smflimsuplem3",
+  "smflimsuplem8",
+  "smflimsupmpt",
+  "smfmbfcex",
+  "smfmul",
+  "smfmulc1",
+  "smfmullem4",
+  "smfneg",
+  "smfpimbor1",
+  "smfpimbor1lem1",
+  "smfpimbor1lem2",
+  "smfpimcc",
+  "smfpimgtmpt",
+  "smfpimgtxr",
+  "smfpimgtxrmpt",
+  "smfpimgtxrmptf",
+  "smfpimioo",
+  "smfpimioompt",
+  "smfpimltxr",
+  "smfpimltxrmpt",
+  "smfpimltxrmptf",
+  "smfpimne",
+  "smfpimne2",
+  "smfpreimage",
+  "smfpreimagt",
+  "smfpreimagtf",
+  "smfpreimale",
+  "smfrec",
+  "smfres",
+  "smfresal",
+  "smfsup",
+  "smfsupdmmbl",
+  "smfsupdmmbllem",
+  "smfsuplem2",
+  "smfsuplem3",
+  "smfsupmpt",
+  "smfsupxr",
+  "snvonmbl",
+  "ssdifidl",
+  "ssdifidlprm",
+  "ssmxidl",
+  "subsaliuncl",
+  "subsalsal",
+  "subsaluni",
+  "sxbrsiga",
+  "sxbrsigalem1",
+  "sxbrsigalem2",
+  "sxbrsigalem4",
+  "sxbrsigalem5",
+  "sxbrsigalem6",
+  "tgoldbachgt",
+  "tgoldbachgtd",
+  "tgoldbachgtda",
+  "tgoldbachgtde",
+  "tngdim",
+  "totprob",
+  "totprobd",
+  "trisecnconstr",
+  "tskcard",
+  "tskint",
+  "tskmap",
+  "tskun",
+  "tskuni",
+  "tskurn",
+  "tskwun",
+  "tskxp",
+  "ttukey",
+  "ufilen",
+  "ufileu",
+  "ufinffr",
+  "umgrwwlks2on",
+  "unidifsnel",
+  "unidifsnne",
+  "unidmvon",
+  "unidom",
+  "uniimadom",
+  "uniimadomf",
+  "unirnfdomd",
+  "unsnen",
+  "vitali2",
+  "von0val",
+  "voncl",
+  "voncmpl",
+  "vonct",
+  "vonhoi",
+  "vonhoire",
+  "vonicc",
+  "vonicclem1",
+  "vonicclem2",
+  "vonioo",
+  "vonioolem1",
+  "vonioolem2",
+  "vonmblss",
+  "vonmblss2",
+  "vonmea",
+  "vonn0hoi",
+  "vonn0icc",
+  "vonn0icc2",
+  "vonn0ioo",
+  "vonn0ioo2",
+  "vonsn",
+  "vonvol",
+  "vonvol2",
+  "vonvolmbl",
+  "vonvolmbl2",
+  "vonxrcl",
+  "wdomac",
+  "weth",
+  "wfac8prim",
+  "wlkiswwlksupgr2",
+  "wlkiswwlkupgr",
+  "wlklnwwlklnupgr2",
+  "wlklnwwlknupgr",
+  "wwlks2onsym",
+  "zarcls1",
+  "zarclssn",
+  "zarcmp",
+  "zarcmplem",
+  "zarmxt1",
+  "zart0",
+  "zartop",
+  "zartopn",
+  "zartopon",
+  "zfac",
+  "zfcndac",
+  "zorn",
+  "zorn2",
+  "zornn0"
+ ],
+ "spenders": [
+  "ac2",
+  "axac3",
+  "zfac"
+ ],
+ "single_gateway": {
+  "tgoldbachgtd": "tgoldbachgtda",
+  "uniimadomf": "uniimadom",
+  "ssmxidl": "zornn0",
+  "rlmdim": "dimval",
+  "ac6s6": "ac6s3f",
+  "krull": "ssmxidl",
+  "tngdim": "dimpropd",
+  "mbfpsssmf": "nsssmfmbf",
+  "umgrwwlks2on": "s3wwlks2on",
+  "numth2": "numth3",
+  "difelsiga": "sigaclci",
+  "algextdeglem4": "lmimdim",
+  "smfneg": "smfmulc1",
+  "grothprim": "brdom6disj",
+  "grumnudlem": "grucollcld",
+  "smflimsup": "smflimsuplem8",
+  "issmfled": "issmfle",
+  "smfsupxr": "smfsup",
+  "abrexdom2": "abrexdom",
+  "sigainb": "difelsiga",
+  "elwspths2on": "elwwlks2on",
+  "rr-grothshortbi": "dfuniv2",
+  "foresf1o": "ac6sg",
+  "measun": "measxun2",
+  "sategoelfvb": "satefvfmla0",
+  "aciunf1": "aciunf1lem",
+  "sge0xp": "sge0iunmpt",
+  "satefvfmla0": "satfun",
+  "drngmxidlr": "ssmxidl",
+  "smf2id": "smfmulc1",
+  "smflimmpt": "smflim2",
+  "mpocti": "fnct",
+  "canth3": "cardsdom",
+  "r1omALT": "inar1",
+  "ondomon": "numth3",
+  "ac4c": "ac4",
+  "fldlring": "dflring3",
+  "vonn0icc": "vonicc",
+  "ac6s2": "ac6s",
+  "ovnsubadd2lem": "ovnsubadd",
+  "weth": "axaci",
+  "measssd": "difelsiga",
+  "carsgclctunlem3": "carsgclctunlem2",
+  "fnpreimac": "ac5b",
+  "lmicdim": "lmimdim",
+  "psmeasurelem": "sge0iun",
+  "locfinref": "locfinreflem",
+  "omeiunltfirp": "omeiunle",
+  "smfliminf": "smfliminflem",
+  "s3wwlks2on": "wlklnwwlknupgr",
+  "elrgspnsubrun": "elrgspnsubrunlem2",
+  "filssufil": "numth3",
+  "smfpimltxrmptf": "smfpimltxr",
+  "sate0fv0": "satef",
+  "smflimlem6": "fnrndomg",
+  "ac6sf": "ac6s",
+  "cmppcmp": "cmpcref",
+  "probinc": "measssd",
+  "smfmul": "smfmullem4",
+  "caragensal": "caragenunicl",
+  "dfz12s2": "bdayfin",
+  "dya2iocbrsiga": "difelsiga",
+  "acunirnmpt2": "ac6s",
+  "satef": "satfvel",
+  "ptpconn": "ac6s2",
+  "caragenunicl": "carageniuncl",
+  "ssdifidlprm": "ssdifidl",
+  "subsaliuncl": "fnrndomg",
+  "ex-sategoelel": "sategoelfvb",
+  "hgt750leme": "hgt750lema",
+  "smfpimgtxrmpt": "smfpimgtxrmptf",
+  "smflimsupmpt": "smflimsup",
+  "frlmdim": "dimval",
+  "ac6gf": "ac6sg",
+  "frgr2wwlkeqm": "wwlks2onsym",
+  "smfco": "smfpimbor1",
+  "alexsubALTlem4": "alexsubALTlem2",
+  "bdayfinlem": "bdayfinbnd",
+  "elrgspnsubrunlem2": "ac6mapd",
+  "smfdivdmmbl": "smfdmmblpimne",
+  "ac6s3": "ac6s2",
+  "opnvonmbl": "opnvonmbllem2",
+  "rspectps": "zartopon",
+  "vonvolmbl2": "vonvolmbl",
+  "axacprim": "axacnd",
+  "numth": "numth2",
+  "ldgenpisys": "ldsysgenld",
+  "ac6c4": "ac6",
+  "extdgid": "rlmdim",
+  "cyc3genpm": "cyc3genpmlem",
+  "acsmapd": "ac6sg",
+  "inatsk": "inar1",
+  "smfpreimagt": "issmfgt",
+  "sategoelfv": "sategoelfvb",
+  "axac": "axac3",
+  "gruina": "cardid",
+  "alexsubALTlem2": "zorn",
+  "ac6s4": "ac6s2",
+  "smfsupdmmbllem": "smfpimltxr",
+  "dimval": "lvecdim",
+  "subsalsal": "subsaliuncl",
+  "grumnueq": "grumnud",
+  "ac6sf2": "ac6s",
+  "voncl": "vonmea",
+  "bdayfinbndlem1": "oldfi",
+  "axdc": "axdclem2",
+  "unidom": "iundom",
+  "infmap": "numth3",
+  "smfpimgtxrmptf": "smfpimgtxr",
+  "ac7g": "ac7",
+  "vonn0icc2": "vonn0icc",
+  "entric": "domtri",
+  "dstfrvunirn": "orvclteel",
+  "vonxrcl": "voncl",
+  "constrext2chn": "constrext2chnlem",
+  "wlkiswwlksupgr2": "ac6",
+  "smfpreimagtf": "smfpreimagt",
+  "ldsysgenld": "sigaldsys",
+  "gruscottcld": "grurankcld",
+  "ioovonmbl": "opnvonmbl",
+  "oldfi": "madefi",
+  "lbsex": "axac3",
+  "ac6s3f": "ac6sf",
+  "mptctf": "fnct",
+  "tskwun": "tskuni",
+  "issmfgtlem": "subsalsal",
+  "zartopn": "zarcls1",
+  "prv0": "satfvel",
+  "coinflippvt": "probdsb",
+  "cos9thpinconstrlem2": "constrcon",
+  "bdayfinbndlem2": "bdayfinbndlem1",
+  "probvalrnd": "prob01",
+  "ac3": "ac2",
+  "zorn": "numth3",
+  "grucollcld": "gruscottcld",
+  "extdggt0": "drngdimgt0",
+  "tskun": "tskuni",
+  "probdsb": "probdif",
+  "bdayfin": "bdayfinlem",
+  "ac4": "axaci",
+  "ovnsubaddlem1": "sge0xp",
+  "grur1a": "gruina",
+  "aleph1": "alephsucpw",
+  "smfsup": "smfsuplem3",
+  "fodomg": "numth3",
+  "wlklnwwlknupgr": "wlklnwwlklnupgr2",
+  "tgoldbachgtda": "tgoldbachgtde",
+  "madefi": "imadomg",
+  "entri2": "entric",
+  "ovnsubadd": "ovnsubaddlem2",
+  "mblvon": "dmvon",
+  "ac8": "axaci",
+  "brdom6disj": "brdom5",
+  "axac10": "axac3",
+  "minregex": "alephreg",
+  "infinf": "infinfg",
+  "assarrginv": "assalactf1o",
+  "tgoldbachgt": "tgoldbachgtd",
+  "sge0iunmpt": "sge0iunmptlemre",
+  "issmfgtd": "issmfgt",
+  "grutsk1": "tskurn",
+  "satfvel": "satfun",
+  "sitgaddlemb": "sibfinima",
+  "prob01": "measssd",
+  "totprob": "totprobd",
+  "dflringlem": "ssmxidl",
+  "measxun2": "difelsiga",
+  "trisecnconstr": "cos9thpinconstr",
+  "constrextdg2lem": "constrelextdg2",
+  "alephreg": "iundom",
+  "smfinfmpt": "smfinf",
+  "cardval": "numth3",
+  "domtri": "numth3",
+  "carageniuncllem2": "omeiunltfirp",
+  "zfcndac": "axacnd",
+  "qusdimsum": "dimkerim",
+  "pcmplfinf": "locfinref",
+  "cardf": "cardeqv",
+  "dflring3": "dflringlem",
+  "constrelextdg2": "rtelextdg2",
+  "probun": "prob01",
+  "ac5b": "numth3",
+  "dfuniv2": "grumnueq",
+  "abrexdomjm": "fnrndomg",
+  "rrvsum": "rrvadd",
+  "ssdifidl": "zornn0",
+  "elnanelprv": "satefvfmla1",
+  "filufint": "filssufil",
+  "cardsdom": "numth3",
+  "alephsucpw": "domtri",
+  "issmfgelem": "subsalsal",
+  "tskint": "tskuni",
+  "onsfi": "oldfi",
+  "smfinfdmmbl": "smfinfdmmbllem",
+  "ufinffr": "filssufil",
+  "permac8prim": "ac8",
+  "cmpfiref": "cmpcref",
+  "tskurn": "tskuni",
+  "elwspths2spth": "elwspths2on",
+  "lbsext": "numth3",
+  "ac6s": "ac6",
+  "orvccel": "cldssbrsiga",
+  "subsaluni": "subsalsal",
+  "bj-grur1": "grur1",
+  "rabfodom": "foresf1o",
+  "infxpidm": "numth3",
+  "measvunilem": "abrexctf",
+  "smfpreimale": "issmfle",
+  "rrvmulc": "cnmbfm",
+  "dominfac": "domtri",
+  "eulerpartgbij": "eulerpartlem1",
+  "smfpimgtmpt": "smfpreimagtf",
+  "zorn2": "numth3",
+  "smfadd": "smfaddlem2",
+  "fsumiunss": "disjinfi",
+  "ac6sg": "ac6s",
+  "brdom7disj": "brdom4",
+  "numthcor": "numth2",
+  "dflring4": "dflring3",
+  "smfsupdmmbl": "smfsupdmmbllem",
+  "sitmcl": "sibfof",
+  "lsatdim": "dimval",
+  "ackm": "axac3",
+  "eulerpartlemgvv": "eulerpartlem1",
+  "omeiunlempt": "omeiunle",
+  "ttukey": "numth3",
+  "elwwlks2on": "s3wwlks2on",
+  "wlkiswwlkupgr": "wlkiswwlksupgr2",
+  "wwlks2onsym": "umgrwwlks2on",
+  "ac7": "axaci",
+  "hoimbl2": "hoimbl",
+  "decsmf": "issmfgtd",
+  "acsinfd": "acsmap2d",
+  "ccfldextdgrr": "dimval",
+  "vonvolmbl": "isvonmbl",
+  "smfpimltxrmpt": "smfpimltxrmptf",
+  "acunirnmpt2f": "ac6sf2",
+  "extdgcl": "dimcl",
+  "dmvon": "ovnome",
+  "ptcls": "axac3",
+  "lvecisfrlm": "lbsex",
+  "ac6c5": "ac6c4",
+  "omeiunle": "fnrndomg",
+  "probtotrnd": "probvalrnd",
+  "reff": "ac6sg",
+  "mxidlnzrb": "krull",
+  "unidifsnne": "cardidd",
+  "cardeq0": "carden",
+  "cos9thpinconstr": "cos9thpinconstrlem2",
+  "caratheodorylem2": "omeiunle",
+  "smfsupmpt": "smfsup",
+  "alexsubALT": "alexsubALTlem4",
+  "fodom": "fodomg",
+  "snvonmbl": "iccvonmbl",
+  "fnct": "fnrndomg",
+  "ufileu": "filssufil",
+  "zarcls1": "ssmxidl",
+  "zartopon": "zartopn",
+  "hausmapdom": "imadomg",
+  "fpwrelmapffslem": "ffsrn",
+  "smfres": "smfpimioo",
+  "ac5": "axaci",
+  "entri3": "entri2",
+  "islinds4": "lbsext",
+  "inaex": "inaprc",
+  "lbslelsp": "lvecdim",
+  "axacnd": "axacndlem5",
+  "axacndlem4": "zfac",
+  "fimact": "imadomg",
+  "fldextrspunlem2": "fldextrspunfld",
+  "ovnsubaddlem2": "ovnsubaddlem1",
+  "ac6n": "ac6s",
+  "smfaddlem2": "subsalsal",
+  "smfpreimage": "issmfge",
+  "ovnsubadd2": "ovnsubadd2lem",
+  "hgt750lema": "fsumiunle",
+  "cardeqv": "axac3",
+  "tskxp": "tskwun",
+  "inaprc": "tskcard",
+  "acsexdimd": "acsinfdimd",
+  "orvcgteel": "orrvccel",
+  "ac8prim": "axaci",
+  "fpwrelmapffs": "fpwrelmapffslem",
+  "acunirnmpt": "ac5b",
+  "sxbrsigalem1": "dya2iocct",
+  "smfinf": "smfinflem",
+  "sigapisys": "sigaclci",
+  "nlpfvineqsn": "ac6sg",
+  "fnrndomg": "fodomg",
+  "ac6mapd": "ac6sg",
+  "eulerpartlem1": "fpwrelmapffs",
+  "onltn0s": "onsfi",
+  "ex-sategoelelomsuc": "sategoelfvb",
+  "nmobndseqiALT": "ac6n",
+  "1arithufdlem4": "ssdifidlprm",
+  "ffsrn": "fnrndomg",
+  "ac6s5": "ac6s4",
+  "eulerpart": "eulerpartlemn",
+  "abrexdom2jm": "abrexdomjm",
+  "eln0s2": "onsfi",
+  "kardcard": "axac3",
+  "cndprobnul": "prob01",
+  "boolesineq": "measiun",
+  "satefvfmla1": "satfun",
+  "orvclteel": "orrvccel",
+  "smfpimioo": "smfpimioompt",
+  "wfac8prim": "ac8",
+  "cldssbrsiga": "difelsiga",
+  "brdom3": "fodom",
+  "grurankcld": "grur1",
+  "psmeasure": "psmeasurelem",
+  "1arithufd": "1arithufdlem4",
+  "zartop": "zartopn",
+  "dfufd2": "1arithufd",
+  "infinfg": "domtri",
+  "assafld": "assarrginv",
+  "acsmap2d": "acsmapd",
+  "rr-grothprimbi": "grumnueq",
+  "assalactf1o": "lvecendof1f1o",
+  "orrvccel": "orvccel",
+  "elwwlks2": "elwwlks2on",
+  "bdayfinbnd": "bdayfinbndlem2",
+  "cnmbfm": "imambfm",
+  "unsnen": "cardid",
+  "ovnsplit": "ovnsubadd2",
+  "sigaclcuni": "abrexctf",
+  "ovnome": "ovnsubadd",
+  "vonmblss2": "vonmblss",
+  "unidifsnel": "cardidd",
+  "zarcmp": "zarcmplem",
+  "cardid": "numth3",
+  "fodomb": "fodomg",
+  "cmpcref": "ac6sg",
+  "wlklnwwlklnupgr2": "wlkiswwlksupgr2",
+  "carageniuncl": "carageniuncllem2",
+  "sxbrsigalem6": "sxbrsigalem5",
+  "smflimsuplem8": "smflimsuplem3",
+  "axdclem2": "ac4c",
+  "zornn0": "numth3",
+  "carsgclctun": "carsgclctunlem3",
+  "imadomg": "fodomg",
+  "smfliminfmpt": "smfliminf",
+  "smfconst": "subsalsal",
+  "carsgsiga": "carsgclctun",
+  "ficard": "carden",
+  "issmfle2d": "issmfled",
+  "konigth": "konigthlem",
+  "rtelextdg2lem": "algextdeg",
+  "tskmap": "tskwun",
+  "nmounbseqiALT": "ac6s",
+  "esumiun": "aciunf1",
+  "cardidg": "cardeqv",
+  "aciunf1lem": "acunirnmpt2f",
+  "algextdeglem6": "lmicdim",
+  "nsssmfmbflem": "smfmbfcex",
+  "ac9s": "ac6s4",
+  "smfmbfcex": "smfconst",
+  "abrexdom": "fnrndomg",
+  "sitmf": "sitmcl",
+  "fldextrspunlsplem": "ac6mapd",
+  "vonn0ioo": "vonioo",
+  "n0cutlt": "onltn0s",
+  "fsumiunle": "aciunf1",
+  "fin71ac": "axac3",
+  "2sqr3nconstr": "constrcon",
+  "inelsiga": "difelsiga",
+  "smflim2": "smflim",
+  "finextalg": "extdgfialg",
+  "constrextdg2": "constrextdg2lem",
+  "algextdeglem8": "dimpropd",
+  "rnct": "dmct",
+  "vonn0ioo2": "vonn0ioo",
+  "axacndlem5": "axacndlem4",
+  "aleph1re": "domtri",
+  "sge0iun": "sge0iunmpt",
+  "alephexp2": "infmap",
+  "ac9": "ac6c4",
+  "cardidd": "cardidg",
+  "pwinfi3": "tskuni",
+  "ac6": "numth3",
+  "tgoldbachgtde": "hgt750leme",
+  "numth3": "cardeqv",
+  "dmovnsal": "vonmea",
+  "carddom": "numth3",
+  "gch-kn": "alephexp2",
+  "alephom": "cfpwsdom",
+  "wdomac": "numth3",
+  "disjinfi": "fodomg",
+  "grumnud": "grumnudlem",
+  "elrspunidl": "ac6sg",
+  "smfdivdmmbl2": "smfpimne2",
+  "extdgmul": "fedgmul",
+  "extdgfialg": "extdgfialglem1",
+  "smfpimbor1": "smfpimbor1lem2",
+  "iccvonmbl": "iccvonmbllem",
+  "sigaclci": "abrexdom2jm",
+  "mptct": "fnct",
+  "ac6s6f": "ac6s6",
+  "lvecdim": "acsexdimd",
+  "axac2": "ac3",
+  "vitali2": "weth",
+  "1arithufdlem1": "krullndrng",
+  "prv1n": "satefvfmla0",
+  "ex-sategoelel12": "sategoelfvb",
+  "axaci": "axac3",
+  "smfsuplem2": "smfpimcc",
+  "satfun": "entric",
+  "dmct": "fodomg",
+  "sdomsdomcard": "numth3",
+  "smfinfdmmbllem": "smfpimgtxr",
+  "cndprobtot": "prob01",
+  "dya2icobrsiga": "difelsiga",
+  "issmflelem": "subsalsal",
+  "r1omtsk": "inatsk",
+  "iundom": "numth3",
+  "sigaldsys": "difelsiga",
+  "vonn0hoi": "vonhoi"
+ },
+ "gateways": [
+  {
+   "gateway": "axac3",
+   "sole_route_for": 9,
+   "total_below": 572
+  },
+  {
+   "gateway": "cardeqv",
+   "sole_route_for": 3,
+   "total_below": 549
+  },
+  {
+   "gateway": "numth3",
+   "sole_route_for": 21,
+   "total_below": 540
+  },
+  {
+   "gateway": "fodomg",
+   "sole_route_for": 6,
+   "total_below": 361
+  },
+  {
+   "gateway": "fnrndomg",
+   "sole_route_for": 7,
+   "total_below": 302
+  },
+  {
+   "gateway": "ac6",
+   "sole_route_for": 3,
+   "total_below": 158
+  },
+  {
+   "gateway": "domtri",
+   "sole_route_for": 5,
+   "total_below": 130
+  },
+  {
+   "gateway": "ac6s",
+   "sole_route_for": 7,
+   "total_below": 118
+  },
+  {
+   "gateway": "iundom",
+   "sole_route_for": 2,
+   "total_below": 97
+  },
+  {
+   "gateway": "ac6sg",
+   "sole_route_for": 8,
+   "total_below": 89
+  },
+  {
+   "gateway": "subsaliuncl",
+   "sole_route_for": 1,
+   "total_below": 73
+  },
+  {
+   "gateway": "subsalsal",
+   "sole_route_for": 6,
+   "total_below": 72
+  },
+  {
+   "gateway": "infinfg",
+   "sole_route_for": 1,
+   "total_below": 69
+  },
+  {
+   "gateway": "abrexdomjm",
+   "sole_route_for": 1,
+   "total_below": 68
+  },
+  {
+   "gateway": "abrexdom2jm",
+   "sole_route_for": 1,
+   "total_below": 67
+  },
+  {
+   "gateway": "sigaclci",
+   "sole_route_for": 2,
+   "total_below": 66
+  },
+  {
+   "gateway": "acsmapd",
+   "sole_route_for": 1,
+   "total_below": 66
+  },
+  {
+   "gateway": "acsmap2d",
+   "sole_route_for": 1,
+   "total_below": 65
+  },
+  {
+   "gateway": "difelsiga",
+   "sole_route_for": 8,
+   "total_below": 64
+  },
+  {
+   "gateway": "acsinfdimd",
+   "sole_route_for": 1,
+   "total_below": 62
+  },
+  {
+   "gateway": "acsexdimd",
+   "sole_route_for": 1,
+   "total_below": 61
+  },
+  {
+   "gateway": "fnct",
+   "sole_route_for": 3,
+   "total_below": 60
+  },
+  {
+   "gateway": "lvecdim",
+   "sole_route_for": 2,
+   "total_below": 60
+  },
+  {
+   "gateway": "disjinfi",
+   "sole_route_for": 1,
+   "total_below": 59
+  },
+  {
+   "gateway": "dimval",
+   "sole_route_for": 4,
+   "total_below": 58
+  },
+  {
+   "gateway": "dmct",
+   "sole_route_for": 1,
+   "total_below": 58
+  },
+  {
+   "gateway": "sge0iunmptlemre",
+   "sole_route_for": 1,
+   "total_below": 57
+  },
+  {
+   "gateway": "sge0iunmpt",
+   "sole_route_for": 2,
+   "total_below": 56
+  },
+  {
+   "gateway": "issmfle",
+   "sole_route_for": 2,
+   "total_below": 55
+  },
+  {
+   "gateway": "sge0xp",
+   "sole_route_for": 1,
+   "total_below": 52
+  },
+  {
+   "gateway": "lbsex",
+   "sole_route_for": 1,
+   "total_below": 51
+  },
+  {
+   "gateway": "ovnsubaddlem1",
+   "sole_route_for": 1,
+   "total_below": 51
+  },
+  {
+   "gateway": "ovnsubaddlem2",
+   "sole_route_for": 1,
+   "total_below": 50
+  },
+  {
+   "gateway": "ovnsubadd",
+   "sole_route_for": 2,
+   "total_below": 49
+  },
+  {
+   "gateway": "issmfgt",
+   "sole_route_for": 2,
+   "total_below": 48
+  },
+  {
+   "gateway": "smfpreimagt",
+   "sole_route_for": 1,
+   "total_below": 45
+  },
+  {
+   "gateway": "ovnome",
+   "sole_route_for": 1,
+   "total_below": 45
+  },
+  {
+   "gateway": "smfpreimagtf",
+   "sole_route_for": 1,
+   "total_below": 42
+  },
+  {
+   "gateway": "smfpimltxr",
+   "sole_route_for": 2,
+   "total_below": 40
+  },
+  {
+   "gateway": "smfpimgtxr",
+   "sole_route_for": 2,
+   "total_below": 40
+  },
+  {
+   "gateway": "dmvon",
+   "sole_route_for": 1,
+   "total_below": 40
+  },
+  {
+   "gateway": "omeiunle",
+   "sole_route_for": 3,
+   "total_below": 39
+  },
+  {
+   "gateway": "imadomg",
+   "sole_route_for": 3,
+   "total_below": 38
+  },
+  {
+   "gateway": "omeiunltfirp",
+   "sole_route_for": 1,
+   "total_below": 36
+  },
+  {
+   "gateway": "carageniuncllem2",
+   "sole_route_for": 1,
+   "total_below": 35
+  },
+  {
+   "gateway": "carageniuncl",
+   "sole_route_for": 1,
+   "total_below": 34
+  },
+  {
+   "gateway": "smfpimgtxrmptf",
+   "sole_route_for": 1,
+   "total_below": 34
+  },
+  {
+   "gateway": "smfpimltxrmptf",
+   "sole_route_for": 1,
+   "total_below": 34
+  },
+  {
+   "gateway": "caragenunicl",
+   "sole_route_for": 1,
+   "total_below": 33
+  },
+  {
+   "gateway": "lbsext",
+   "sole_route_for": 1,
+   "total_below": 33
+  },
+  {
+   "gateway": "vonmea",
+   "sole_route_for": 2,
+   "total_below": 30
+  },
+  {
+   "gateway": "smfpimioompt",
+   "sole_route_for": 1,
+   "total_below": 30
+  },
+  {
+   "gateway": "cardidg",
+   "sole_route_for": 1,
+   "total_below": 29
+  },
+  {
+   "gateway": "measssd",
+   "sole_route_for": 2,
+   "total_below": 28
+  },
+  {
+   "gateway": "cardid",
+   "sole_route_for": 2,
+   "total_below": 28
+  },
+  {
+   "gateway": "cardidd",
+   "sole_route_for": 2,
+   "total_below": 28
+  },
+  {
+   "gateway": "zornn0",
+   "sole_route_for": 2,
+   "total_below": 26
+  },
+  {
+   "gateway": "abrexctf",
+   "sole_route_for": 2,
+   "total_below": 26
+  },
+  {
+   "gateway": "dimcl",
+   "sole_route_for": 1,
+   "total_below": 26
+  },
+  {
+   "gateway": "ac6c4",
+   "sole_route_for": 2,
+   "total_below": 26
+  },
+  {
+   "gateway": "hoimbl",
+   "sole_route_for": 1,
+   "total_below": 25
+  },
+  {
+   "gateway": "alephreg",
+   "sole_route_for": 1,
+   "total_below": 24
+  },
+  {
+   "gateway": "carden",
+   "sole_route_for": 2,
+   "total_below": 23
+  },
+  {
+   "gateway": "konigthlem",
+   "sole_route_for": 1,
+   "total_below": 23
+  },
+  {
+   "gateway": "smfpimioo",
+   "sole_route_for": 1,
+   "total_below": 21
+  },
+  {
+   "gateway": "ssmxidl",
+   "sole_route_for": 4,
+   "total_below": 20
+  },
+  {
+   "gateway": "measxun2",
+   "sole_route_for": 1,
+   "total_below": 20
+  },
+  {
+   "gateway": "entric",
+   "sole_route_for": 2,
+   "total_below": 18
+  },
+  {
+   "gateway": "cldssbrsiga",
+   "sole_route_for": 1,
+   "total_below": 18
+  },
+  {
+   "gateway": "tskcard",
+   "sole_route_for": 1,
+   "total_below": 18
+  },
+  {
+   "gateway": "issmfled",
+   "sole_route_for": 1,
+   "total_below": 18
+  },
+  {
+   "gateway": "smfpimbor1lem2",
+   "sole_route_for": 1,
+   "total_below": 18
+  },
+  {
+   "gateway": "dimpropd",
+   "sole_route_for": 2,
+   "total_below": 17
+  },
+  {
+   "gateway": "smfpimbor1",
+   "sole_route_for": 1,
+   "total_below": 17
+  },
+  {
+   "gateway": "opnvonmbllem2",
+   "sole_route_for": 1,
+   "total_below": 17
+  },
+  {
+   "gateway": "prob01",
+   "sole_route_for": 4,
+   "total_below": 17
+  },
+  {
+   "gateway": "lmimdim",
+   "sole_route_for": 2,
+   "total_below": 16
+  },
+  {
+   "gateway": "opnvonmbl",
+   "sole_route_for": 1,
+   "total_below": 16
+  },
+  {
+   "gateway": "gruina",
+   "sole_route_for": 1,
+   "total_below": 16
+  },
+  {
+   "gateway": "axaci",
+   "sole_route_for": 6,
+   "total_below": 15
+  },
+  {
+   "gateway": "smfpimcc",
+   "sole_route_for": 1,
+   "total_below": 15
+  },
+  {
+   "gateway": "satfun",
+   "sole_route_for": 3,
+   "total_below": 14
+  },
+  {
+   "gateway": "tskuni",
+   "sole_route_for": 5,
+   "total_below": 14
+  },
+  {
+   "gateway": "drngdimgt0",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "grur1",
+   "sole_route_for": 2,
+   "total_below": 14
+  },
+  {
+   "gateway": "vonmblss",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "lmicdim",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "fedgmul",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "vonhoi",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "smfsuplem3",
+   "sole_route_for": 1,
+   "total_below": 13
+  },
+  {
+   "gateway": "ac6sf2",
+   "sole_route_for": 1,
+   "total_below": 13
+  },
+  {
+   "gateway": "smfconst",
+   "sole_route_for": 1,
+   "total_below": 13
+  },
+  {
+   "gateway": "smfsup",
+   "sole_route_for": 2,
+   "total_below": 12
+  },
+  {
+   "gateway": "cardsdom",
+   "sole_route_for": 1,
+   "total_below": 12
+  },
+  {
+   "gateway": "ac6mapd",
+   "sole_route_for": 2,
+   "total_below": 12
+  },
+  {
+   "gateway": "madefi",
+   "sole_route_for": 1,
+   "total_below": 12
+  },
+  {
+   "gateway": "dimkerim",
+   "sole_route_for": 1,
+   "total_below": 12
+  },
+  {
+   "gateway": "algextdeg",
+   "sole_route_for": 1,
+   "total_below": 12
+  },
+  {
+   "gateway": "acunirnmpt2f",
+   "sole_route_for": 1,
+   "total_below": 12
+  },
+  {
+   "gateway": "aciunf1lem",
+   "sole_route_for": 1,
+   "total_below": 11
+  },
+  {
+   "gateway": "smfmullem4",
+   "sole_route_for": 1,
+   "total_below": 11
+  },
+  {
+   "gateway": "oldfi",
+   "sole_route_for": 2,
+   "total_below": 11
+  },
+  {
+   "gateway": "grurankcld",
+   "sole_route_for": 1,
+   "total_below": 11
+  },
+  {
+   "gateway": "wlkiswwlksupgr2",
+   "sole_route_for": 2,
+   "total_below": 11
+  },
+  {
+   "gateway": "inar1",
+   "sole_route_for": 2,
+   "total_below": 10
+  },
+  {
+   "gateway": "elrgspnsubrunlem2",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "rlmdim",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "zarcls1",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "gruscottcld",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "rtelextdg2",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "lvecendof1f1o",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "aciunf1",
+   "sole_route_for": 2,
+   "total_below": 10
+  },
+  {
+   "gateway": "grucollcld",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "wlklnwwlklnupgr2",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "assalactf1o",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "constrelextdg2",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "ffsrn",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "smflim",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "smfmulc1",
+   "sole_route_for": 2,
+   "total_below": 8
+  },
+  {
+   "gateway": "smflim2",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "wlklnwwlknupgr",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "zartopn",
+   "sole_route_for": 2,
+   "total_below": 8
+  },
+  {
+   "gateway": "fpwrelmapffslem",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "assarrginv",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "constrextdg2lem",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "grumnudlem",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "iccvonmbllem",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "inatsk",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "s3wwlks2on",
+   "sole_route_for": 2,
+   "total_below": 7
+  },
+  {
+   "gateway": "satefvfmla0",
+   "sole_route_for": 2,
+   "total_below": 7
+  },
+  {
+   "gateway": "grumnud",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "tskurn",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "iccvonmbl",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "dya2iocct",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "fpwrelmapffs",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "ac6s2",
+   "sole_route_for": 3,
+   "total_below": 6
+  },
+  {
+   "gateway": "constrext2chnlem",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "grumnueq",
+   "sole_route_for": 2,
+   "total_below": 6
+  },
+  {
+   "gateway": "eulerpartlem1",
+   "sole_route_for": 2,
+   "total_below": 6
+  },
+  {
+   "gateway": "fldextrspunfld",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "fsumiunle",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "fodom",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "orvccel",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "imambfm",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "smflimsuplem3",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "smflimsuplem8",
+   "sole_route_for": 1,
+   "total_below": 5
+  },
+  {
+   "gateway": "sategoelfvb",
+   "sole_route_for": 4,
+   "total_below": 5
+  },
+  {
+   "gateway": "hgt750lema",
+   "sole_route_for": 1,
+   "total_below": 5
+  },
+  {
+   "gateway": "bdayfinbndlem1",
+   "sole_route_for": 1,
+   "total_below": 5
+  },
+  {
+   "gateway": "inaprc",
+   "sole_route_for": 1,
+   "total_below": 5
+  },
+  {
+   "gateway": "zfac",
+   "sole_route_for": 1,
+   "total_below": 5
+  },
+  {
+   "gateway": "orrvccel",
+   "sole_route_for": 2,
+   "total_below": 5
+  },
+  {
+   "gateway": "vonicc",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "carsgclctunlem2",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "ssdifidl",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "smflimsup",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "sigaldsys",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "constrcon",
+   "sole_route_for": 2,
+   "total_below": 4
+  },
+  {
+   "gateway": "sibfinima",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "filssufil",
+   "sole_route_for": 3,
+   "total_below": 4
+  },
+  {
+   "gateway": "foresf1o",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "cnmbfm",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "isvonmbl",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "probvalrnd",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "bdayfinbndlem2",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "sxbrsigalem5",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "axacndlem4",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "hgt750leme",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "elwwlks2on",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "ac4",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "satfvel",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "bdayfinbnd",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "zartopon",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "vonvolmbl",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "numth2",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "zorn",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "vonn0icc",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "orvclteel",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "ac6sf",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "tgoldbachgtde",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "dflringlem",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "krull",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "axacndlem5",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "onsfi",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "ssdifidlprm",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "carsgclctunlem3",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "smfmbfcex",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "weth",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "tgoldbachgtda",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac6s3f",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "dfuniv2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "dflring3",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac5b",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "sge0iun",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "locfinreflem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "smfliminflem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "cmpcref",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "alexsubALTlem2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "axacnd",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "ldsysgenld",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "probdif",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "bdayfinlem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "brdom5",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac8",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "sibfof",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "umgrwwlks2on",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "cos9thpinconstrlem2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "entri2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ovnsubadd2lem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "tskwun",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "smfinflem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac6s4",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "1arithufdlem4",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "ac4c",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "carsgclctun",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "vonioo",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "infmap",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "extdgfialglem1",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "uniimadom",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "nsssmfmbf",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "brdom6disj",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "abrexdom",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "satef",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "bdayfin",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "wwlks2onsym",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfdmmblpimne",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "cyc3genpmlem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "axdclem2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac7",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "voncl",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "probdsb",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "alephsucpw",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "tgoldbachgtd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "totprobd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "cos9thpinconstr",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfinf",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "locfinref",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "rrvadd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "satefvfmla1",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfinfdmmbllem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "elwspths2on",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfaddlem2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "brdom4",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfsupdmmbllem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "issmfgtd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "alexsubALTlem4",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "issmfge",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac6n",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "eulerpartlemn",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "measiun",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "psmeasurelem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "1arithufd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ovnsubadd2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "zarcmplem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfliminf",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "sitmcl",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "onltn0s",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "extdgfialg",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "vonn0ioo",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "alephexp2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "cfpwsdom",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "smfpimne2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac6s6",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac3",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "krullndrng",
+   "sole_route_for": 1,
+   "total_below": 1
+  }
+ ]
+}

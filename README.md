@@ -56,6 +56,44 @@ be trisected.
 structural: the dependence is concentrated at one lemma, and that lemma's
 general form is stronger than most of its uses require.
 
+## necessity — the tool
+
+`tools/necessity.py` generalises all of the above to any axiom in any Metamath
+database. It reads the `.mm` directly, needs no precomputed index and no
+verification pass, and finishes in about two seconds on a 51 MB library.
+
+    python tools/necessity.py vendor/set.mm --axiom ax-ac ax-ac2
+    python tools/necessity.py vendor/set.mm --axiom ax-pow --json out.json
+    python tools/necessity.py vendor/iset.mm --axiom ax-pow --trace bayesth
+
+Provenance tools answer *what does this theorem rest on*. This answers the next
+question: *given that it rests on an axiom, where is the one place that could
+change?*
+
+Run across four axioms of set.mm, the shape of the dependence differs enough to
+be the point:
+
+| axiom | reaching it | via a single step |
+|---|---|---|
+| `ax-inf` infinity | 6 (0.01%) | 83% |
+| `ax-reg` regularity | 517 (1.08%) | 76% |
+| `ax-ac` choice | 582 (1.22%) | 72% |
+| `ax-pow` power set | 29,608 (62.13%) | 26% |
+
+Power set is woven through the library: most of it, and three quarters of those
+theorems reach it by several independent routes, so no single change frees
+them. Choice and regularity are the opposite — rare, and entering at a handful
+of points. **That distinction is what makes one axiom auditable and another
+not**, and it falls out of the reference graph without any mathematics.
+
+The same run against `iset.mm`, the intuitionistic database, gives 64.44% and
+27% for `ax-pow` — the same shape under a different foundation.
+
+**What it does not do.** It never claims a dependence is removable. A single
+gateway is a place to look. Real and accidental dependence are indistinguishable
+from the graph: `zartopon` reaches choice through Krull's theorem and genuinely
+needs it. Telling those apart is mathematics.
+
 ## A detector for the same pattern
 
 `tools/sibling_asymmetry.py` looks for theorems that pay for choice while

@@ -1,0 +1,42 @@
+{
+ "database": "set.mm",
+ "axioms": [
+  "ax-inf"
+ ],
+ "proved": 47655,
+ "reach": [
+  "axinf2",
+  "axinfnd",
+  "axinfndlem1",
+  "axinfprim",
+  "zfcndinf",
+  "zfinf"
+ ],
+ "spenders": [
+  "zfinf"
+ ],
+ "single_gateway": {
+  "axinfndlem1": "zfinf",
+  "zfcndinf": "axinfnd",
+  "axinf2": "zfinf",
+  "axinfprim": "axinfnd",
+  "axinfnd": "axinfndlem1"
+ },
+ "gateways": [
+  {
+   "gateway": "zfinf",
+   "sole_route_for": 2,
+   "total_below": 5
+  },
+  {
+   "gateway": "axinfndlem1",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "axinfnd",
+   "sole_route_for": 2,
+   "total_below": 2
+  }
+ ]
+}

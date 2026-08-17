@@ -1,5 +1,7 @@
 vendor/set.mm
+vendor/iset.mm
 vendor/set_*.mm
+vendor/mmj2/
 *.log
 __pycache__/
 *.pyc
