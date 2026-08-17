@@ -1,5 +1,7 @@
 {
  "database": "set.mm",
+ "sha256": "9486e76e0614f66877837d02ae973fdfde52c1343e5bcc3dbc66605cc55c7054",
+ "bytes": 51130373,
  "axioms": [
   "ax-inf"
  ],
@@ -16,10 +18,10 @@
   "zfinf"
  ],
  "single_gateway": {
-  "axinfndlem1": "zfinf",
+  "axinfprim": "axinfnd",
   "zfcndinf": "axinfnd",
   "axinf2": "zfinf",
-  "axinfprim": "axinfnd",
+  "axinfndlem1": "zfinf",
   "axinfnd": "axinfndlem1"
  },
  "gateways": [

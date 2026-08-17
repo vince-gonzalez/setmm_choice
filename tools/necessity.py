@@ -149,6 +149,12 @@ def main() -> None:
     a = ap.parse_args()
 
     path = Path(a.database)
+    # A Metamath library changes daily -- set.mm took commits on the day this
+    # was written -- so a count without the database it came from is not
+    # reproducible. Fingerprint what was actually read.
+    import hashlib
+    raw = path.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
     kind, refs = parse(path)
     proved = sum(1 for k in kind.values() if k == "p")
     missing = [x for x in a.axiom if x not in kind]
@@ -158,6 +164,8 @@ def main() -> None:
     r = analyse(kind, refs, set(a.axiom))
     reach, single = r["reach"], r["single"]
     print(f"{path.name}: {proved:,} proved statements, {len(kind):,} labels")
+    print(f"sha256 {digest}")
+    print(f"  ({len(raw):,} bytes -- quote this with any figure below)")
     print(f"axiom(s): {', '.join(a.axiom)}")
     print()
     print(f"  reach it            {len(reach):,}  ({len(reach)/proved:.2%})")
@@ -181,7 +189,8 @@ def main() -> None:
 
     if a.json:
         Path(a.json).write_text(json.dumps({
-            "database": path.name, "axioms": a.axiom,
+            "database": path.name, "sha256": digest,
+            "bytes": len(raw), "axioms": a.axiom,
             "proved": proved, "reach": sorted(reach),
             "spenders": r["spenders"],
             "single_gateway": single,

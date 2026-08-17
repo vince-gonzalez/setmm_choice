@@ -1,5 +1,7 @@
 {
  "database": "set.mm",
+ "sha256": "9486e76e0614f66877837d02ae973fdfde52c1343e5bcc3dbc66605cc55c7054",
+ "bytes": 51130373,
  "axioms": [
   "ax-reg"
  ],
@@ -531,399 +533,399 @@
   "zfregcl"
  ],
  "single_gateway": {
-  "gch2": "dfac12",
-  "dominf": "inf3lem6",
-  "elneq": "elirr",
-  "ranklim": "rankpw",
-  "suceqsneq": "suc11reg",
-  "bnj967": "bnj945",
-  "inf3lem5": "inf3lem4",
-  "dfac1": "dfac7",
-  "r1val2": "rankr1a",
-  "bnj1029": "bnj907",
-  "assalactf1o": "lvecendof1f1o",
-  "onvf1odlem1": "tz9.13g",
-  "bnj929": "bnj927",
-  "2sqr3nconstr": "constrcon",
-  "inf3lem6": "inf3lem5",
-  "lsatdim": "dimval",
-  "esumiun": "aciunf1",
-  "axrepprim": "axrepnd",
-  "zfregclOLD": "axreg2",
-  "opthreg": "preleq",
-  "setind2": "setind",
-  "axinf2": "inf3",
-  "assarrginv": "assalactf1o",
-  "collexd": "scottex",
-  "bnj554": "bnj551",
-  "constrelextdg2": "rtelextdg2",
-  "bnj571": "bnj558",
-  "zfcndrep": "axrepnd",
-  "axacndlem1": "nd1",
-  "bnj535": "disjcsn",
-  "elrspunidl": "ac6sg",
-  "1enumkard": "kardenir",
-  "axunprim": "axunnd",
-  "pcmplfinf": "locfinref",
-  "axgroth3": "dominf",
-  "axregprim": "axregnd",
-  "en2lp": "zfregfr",
-  "onsupmaxb": "elirrv",
-  "rankxpl": "rankuniss",
-  "fsumiunle": "aciunf1",
-  "acunirnmpt2": "ac6s",
-  "axpowndlem3": "nd3",
-  "axpowndlem4": "axpowndlem3",
-  "acsexdimd": "acsinfdimd",
-  "bndrank": "rankid",
-  "oenass": "oenassex",
-  "kardex": "scottex",
-  "disjsuc": "disjsuc2",
-  "bnj544": "bnj543",
-  "extdgfialg": "extdgfialglem1",
-  "zfcndreg": "axregnd",
-  "sucpre": "presucmap",
-  "constrextdg2": "constrextdg2lem",
-  "ac6mapd": "ac6sg",
-  "bnj1228": "bnj69",
-  "zfregs2VD": "zfregs",
-  "lvecdim0i": "dimval",
-  "clsk1indlem1": "suc11reg",
-  "bnj1204": "bnj1228",
-  "nd4": "nd3",
-  "axsepg2": "elirrv",
-  "kardcard": "ackardcard",
-  "zfcndac": "axacnd",
-  "grutsk": "unir1",
-  "en3lp": "zfreg",
-  "zfreg": "zfregcl",
-  "dominfac": "inf3lem6",
-  "trssfir1om": "setinds2",
-  "bnj69": "bnj1189",
-  "tz9.13": "setind",
-  "elrgspnsubrunlem2": "ac6mapd",
-  "scottexsOLD": "scottexOLD",
-  "dimkerim": "dimval",
-  "algextdeglem4": "lmimdim",
-  "finextalg": "extdgfialg",
-  "hfext": "hfelhf",
-  "infeq5": "inf3lem7",
-  "rtelextdg2lem": "algextdeg",
-  "dfuniv2": "grumnueq",
-  "ac6s4": "ac6s2",
-  "epnsymrel": "epnsym",
-  "tr0el": "zfregs",
-  "ctbssinf": "ac6s2",
-  "oaomoencom": "elneq",
-  "hgt750lema": "fsumiunle",
-  "bnj864": "bnj852",
-  "tfsconcat0b": "elneq",
-  "bnj927": "disjcsn",
-  "ttc0elw": "tr0elw",
-  "bnj906": "bnj852",
-  "hftr": "hfelhf",
-  "dfac12": "dfac12a",
-  "ac6n": "ac6s",
-  "nlpfvineqsn": "ac6sg",
-  "bnj998": "bnj910",
-  "dfac11": "r1rankid",
-  "ruv": "elirr",
-  "rlmdim": "dimval",
-  "bnj1442": "bnj906",
-  "nd3": "elirrv",
-  "sucprcregOLD": "elirr",
-  "dfac2": "dfac2b",
-  "cplem2": "scottex",
-  "elirrvALT": "zfregfr",
-  "kardsn": "kardeng",
-  "rankpwg": "rankpw",
-  "axpowg2": "elirrv",
-  "bnj1326": "bnj1311",
-  "axsepg4": "elirrv",
-  "bj-restreg": "zfreg",
-  "aciunf1lem": "acunirnmpt2f",
-  "extdgfialglem1": "dimval",
-  "bnj907": "bnj1020",
-  "locfinref": "locfinreflem",
-  "setrecsss": "setrec1",
-  "dford5reg": "zfregfr",
-  "setind": "zfregs",
-  "bnj1501": "bnj60",
-  "dford3": "dford3lem2",
-  "nelaneqOLDOLD": "elneq",
-  "rankr1g": "unir1",
-  "scottex": "bndrank",
-  "elscott2": "dfscott2",
-  "axsepg5": "axsepg4",
-  "bnj1489": "bnj1321",
-  "elscottrank": "dfscott2",
-  "ranksng": "ranksn",
-  "ac6sf2": "ac6s",
-  "ressucdifsn2": "disjcsn",
-  "setinds2": "setinds2f",
-  "exnel": "elirrv",
-  "elirrvOLDOLD": "zfregcl",
-  "foresf1o": "ac6sg",
-  "bnj1414": "bnj1408",
-  "bnj1522": "bnj1523",
-  "bnj543": "bnj535",
-  "rankvalg": "rankval",
-  "rankbnd": "rankval4",
-  "preleqALT": "en2lp",
-  "scottex2OLD": "scottexOLD",
-  "bnj557": "bnj551",
-  "elrgspnsubrun": "elrgspnsubrunlem2",
-  "bnj601": "bnj600",
-  "tgoldbachgtde": "hgt750leme",
-  "extdgmul": "fedgmul",
-  "nelaneqOLD": "elirr",
-  "zarcmplem": "elrspunidl",
-  "ptpconn": "ac6s2",
-  "hsmex3": "hsmex2",
-  "rankid": "unir1",
-  "r1rankid": "unir1",
-  "kardfn": "scottex",
-  "cmpcref": "ac6sg",
-  "ac6s3f": "ac6sf",
-  "bnj893": "bnj849",
-  "dford4": "dford3",
-  "zfregs2": "zfregs",
-  "bj-inftyexpitaudisj": "bj-nsnid",
-  "axnulg": "elirrv",
-  "dfac0": "dfac7",
-  "axtcond": "elirrv",
-  "qusdimsum": "dimkerim",
-  "dford2": "zfregfr",
-  "axacndlem2": "nd1",
-  "rankfo": "unir1",
-  "elirr": "elirrv",
-  "ac6s5": "ac6s4",
-  "r1limwun": "rankuni",
-  "setinds2f": "setinds",
-  "aciunf1": "aciunf1lem",
-  "dfscott2": "rankfn",
-  "rankung": "rankun",
-  "disjsuc2": "disjressuc2",
-  "algextdeglem8": "dimpropd",
-  "suceldisj": "elirr",
-  "dfac12a": "unir1",
-  "tz9.13g": "tz9.13",
-  "grucollcld": "gruscottcld",
-  "bnj1500": "bnj1501",
-  "hsmex2": "unir1",
-  "zfcndpow": "axpownd",
-  "grothprim": "axgroth4",
-  "indexdom": "ac6gf",
-  "oenassex": "elneq",
-  "assafld": "assarrginv",
-  "extdgid": "rlmdim",
-  "dfttc4": "zfreg",
-  "r1wunlim": "r1limwun",
-  "elpotr": "elirrv",
-  "preel": "sucpre",
-  "ttcwf2": "zfreg",
-  "scottexf": "scottex",
-  "mh-setind": "setind",
-  "cmpfiref": "cmpcref",
-  "kardval2": "kardval",
-  "tr0elw": "zfreg",
-  "ttc0el": "tr0el",
-  "dfsuccl4": "dfsuccl3",
-  "rankval": "unir1",
-  "acsmap2d": "acsmapd",
-  "dimcl": "dimval",
-  "kardcard2": "kardeng",
-  "grurankrcld": "r1rankid",
-  "ackardcard": "kardcard2",
-  "bnj1493": "bnj1312",
-  "nmobndseqiALT": "ac6n",
-  "axregndlem1": "elirrv",
-  "ac9s": "ac6s4",
-  "dfsuccl3": "exeupre2",
-  "suc11reg": "en2lp",
-  "rankr1b": "unir1",
-  "unir1": "setind",
-  "cplem2OLD": "scottexOLD",
-  "lvecdim": "acsexdimd",
-  "axinfprim": "axinfnd",
-  "constrext2chn": "constrext2chnlem",
-  "mnurndlem2": "mnurndlem1",
-  "inf3lem7": "inf3lem6",
-  "bnj1311": "bnj1228",
-  "setinds": "setind",
-  "kardexOLD": "scottexOLD",
-  "r1val3": "r1val2",
-  "sucdifsn": "sucdifsn2",
-  "press": "sucpre",
-  "dimval": "lvecdim",
-  "algextdeglem6": "lmicdim",
-  "prv1n": "elirr",
-  "dfac7": "dfac2",
-  "setrec1": "setrec1lem3",
-  "bj-pinftynrr": "bj-inftyexpidisj",
-  "bnd2": "bnd",
-  "tngdim": "dimpropd",
-  "bj-minftynrr": "bj-inftyexpidisj",
-  "lmimdim": "dimval",
-  "bj-inftyexpidisj": "en3lp",
-  "ac6s2": "ac6s",
-  "dimlssid": "dimval",
-  "mnugrud": "mnurnd",
-  "axregs": "zfregs2",
-  "en3lpVD": "zfregs2",
-  "preleq": "preleqg",
-  "bnj1189": "bnj1190",
-  "bnj1321": "bnj1326",
-  "omsmeas": "omssubadd",
-  "axpowg3": "elirrv",
-  "ressucdifsn": "ressucdifsn2",
-  "rankpr": "unir1",
-  "axac": "dfac0",
-  "acsinfd": "acsmap2d",
-  "cyc3genpm": "cyc3genpmlem",
-  "distel": "elirrv",
-  "inf3lem4": "inf3lem3",
-  "acsmapd": "ac6sg",
-  "zfregfr": "zfreg",
-  "eupre": "eupre2",
-  "bj-nsnid": "en2lp",
-  "elnanel": "en2lp",
-  "zarcmp": "zarcmplem",
-  "elpg": "elsetrecs",
-  "acunirnmpt2f": "ac6sf2",
-  "clsk1independent": "clsk1indlem1",
-  "inf3": "inf3lem7",
-  "zfregs": "zfregfr",
-  "sucdifsn2": "disjcsn",
-  "rank0": "rankeq0",
-  "unidifsnel": "suc11reg",
-  "ac6sf": "ac6s",
-  "nmounbseqiALT": "ac6s",
-  "dimpropd": "dimval",
-  "bnj941": "bnj927",
-  "disjressuc2": "elneq",
-  "rr-grothprimbi": "grumnueq",
-  "epinid0": "nelaneq",
-  "rankfn": "rankfo",
-  "inf3lem3": "zfreg",
-  "axgroth4": "axgroth3",
-  "disjcsn": "elirr",
-  "rankpw": "unir1",
-  "ssrankr1": "unir1",
-  "rankval2": "rankvalg",
-  "nelaneq": "elirr",
-  "ac6s6": "ac6s3f",
-  "nd1": "elirrv",
-  "nelscottrankgt": "scottrankeqel",
-  "kardeng": "kardval",
-  "cp": "cplem2",
-  "gch3": "gch2",
-  "lmicdim": "lmimdim",
-  "bnj945": "bnj941",
-  "ac6sg": "ac6s",
-  "elsetrecslem": "setrec1",
-  "onvf1odlem2": "onvf1odlem1",
-  "axacndlem3": "nd3",
-  "kardenir": "kardeng",
-  "bnj1498": "bnj1493",
-  "rankel": "unir1",
-  "exeupre": "exeupre2",
-  "eupre2": "exeupre",
-  "reff": "ac6sg",
-  "tgoldbachgtd": "tgoldbachgtda",
-  "unidifsnne": "suc11reg",
-  "bnj944": "bnj929",
-  "rankr1": "rankr1g",
-  "rankop": "unir1",
-  "onsetrec": "setrec1",
-  "constrextdg2lem": "constrelextdg2",
-  "bnj865": "bnj852",
-  "rankval3": "unir1",
-  "bnj1006": "bnj945",
-  "hgt750leme": "hgt750lema",
-  "sucmapleftuniq": "suc11reg",
-  "bnj1423": "bnj1442",
-  "bnd": "cp",
-  "rankelg": "rankel",
-  "elnotel": "en2lp",
-  "hta": "scottex",
-  "rankuni2": "unir1",
-  "ranksn": "unir1",
-  "frlmdim": "dimval",
-  "ac6s": "bnd2",
-  "rankuniss": "rankuni",
-  "mnurndlem1": "elnotel",
   "rabfodom": "foresf1o",
-  "rankun": "unir1",
-  "setrec1lem3": "bnd2d",
-  "ruALT": "ruv",
-  "unbndrank": "bndrank",
-  "bnj551": "suc11reg",
-  "lbslelsp": "lvecdim",
-  "cos9thpinconstr": "cos9thpinconstrlem2",
-  "elhf2g": "elhf2",
-  "bnj1415": "bnj1414",
-  "cnvepnep": "en2lp",
-  "zfcndinf": "axinfnd",
-  "extdggt0": "drngdimgt0",
-  "ac6s6f": "ac6s6",
+  "trssfir1om": "setinds2",
+  "elscott2": "dfscott2",
+  "mnugrud": "mnurnd",
+  "rankel": "unir1",
+  "rankfo": "unir1",
+  "unir1": "setind",
+  "dford4": "dford3",
+  "tz9.13g": "tz9.13",
+  "elnanel": "en2lp",
+  "scottexf": "scottex",
   "mopre": "suc11reg",
-  "ruvALT": "elirrv",
-  "dford3lem2": "setindtrs",
-  "ccfldextdgrr": "dimval",
-  "jech9.3": "unir1",
-  "tgoldbachgtda": "tgoldbachgtde",
-  "kardval": "scottex",
-  "presucmap": "eupre2",
-  "grumnud": "grumnudlem",
-  "pibt2": "ac6s",
-  "extdgcl": "dimcl",
-  "zfcndun": "axunnd",
-  "fldextrspunlsplem": "ac6mapd",
-  "kardeq0": "kardval",
-  "sucprcreg": "elirr",
-  "rankeq0": "unir1",
-  "trelpss": "zfregfr",
-  "rankr1a": "ssrankr1",
-  "ac6s3": "ac6s2",
-  "rankss": "unir1",
-  "setindtrs": "setindtr",
-  "scottexOLD": "bndrank",
-  "lssdimle": "dimval",
-  "grurankcld": "unir1",
-  "gruex": "rankr1a",
-  "axpowprim": "axpownd",
-  "htaOLD": "scottexsOLD",
-  "setindtr": "zfreg",
-  "rr-grothshortbi": "dfuniv2",
-  "elkarden": "kardval2",
-  "ac6gf": "ac6sg",
-  "kardcard2a": "kardeng",
-  "fldextrspunlem2": "fldextrspunfld",
-  "bnd2d": "bnd2",
-  "elnanelprv": "elnanel",
-  "ralndv1": "elirrv",
-  "bj-ccinftydisj": "bj-inftyexpidisj",
-  "trisecnconstr": "cos9thpinconstr",
-  "grumnudlem": "grucollcld",
+  "bnj1522": "bnj1523",
   "ttcwf3": "ttcwf2",
-  "axunndlem1": "en2lp",
-  "bnj1384": "bnj1326",
-  "kard0b": "kardeng",
-  "cmppcmp": "cmpcref",
-  "tgoldbachgt": "tgoldbachgtd",
-  "epnsym": "cnvepnep",
-  "mnurnd": "mnurndlem2",
-  "rankelun": "rankun",
-  "extdg1id": "dimval",
-  "cos9thpinconstrlem2": "constrcon",
-  "axacprim": "axacnd",
-  "nd2": "elirrv",
+  "bnj893": "bnj849",
   "elnel": "elnotel",
-  "rankwflem": "unir1",
+  "sucprcregOLD": "elirr",
+  "bnj941": "bnj927",
+  "axunprim": "axunnd",
+  "setrecsss": "setrec1",
+  "fldextrspunlem2": "fldextrspunfld",
+  "bnj967": "bnj945",
+  "rankfn": "rankfo",
+  "axgroth4": "axgroth3",
+  "htaOLD": "scottexsOLD",
+  "rankbnd": "rankval4",
+  "zfcndrep": "axrepnd",
+  "bnj865": "bnj852",
+  "nmounbseqiALT": "ac6s",
+  "rankung": "rankun",
+  "kardcard": "ackardcard",
+  "collexd": "scottex",
+  "nd2": "elirrv",
+  "mnurndlem1": "elnotel",
+  "bnj1498": "bnj1493",
+  "rankval": "unir1",
+  "constrext2chn": "constrext2chnlem",
+  "gch3": "gch2",
+  "bnj907": "bnj1020",
+  "bnj1029": "bnj907",
+  "axregndlem1": "elirrv",
+  "dominfac": "inf3lem6",
+  "ac6s5": "ac6s4",
+  "rr-grothshortbi": "dfuniv2",
+  "preleqALT": "en2lp",
+  "zfregs2VD": "zfregs",
+  "elkarden": "kardval2",
+  "axsepg5": "axsepg4",
+  "dfsuccl4": "dfsuccl3",
+  "opthreg": "preleq",
+  "indexdom": "ac6gf",
+  "zfcndun": "axunnd",
+  "ssrankr1": "unir1",
+  "kardsn": "kardeng",
+  "ac6sf2": "ac6s",
+  "r1val3": "r1val2",
+  "grutsk": "unir1",
+  "en3lpVD": "zfregs2",
+  "zfreg": "zfregcl",
+  "bnd2d": "bnd2",
+  "setinds2": "setinds2f",
+  "ressucdifsn": "ressucdifsn2",
+  "rankr1b": "unir1",
+  "bnj1189": "bnj1190",
+  "axpowprim": "axpownd",
+  "cmpcref": "ac6sg",
+  "tfsconcat0b": "elneq",
+  "exeupre": "exeupre2",
+  "bnj1500": "bnj1501",
+  "rankval2": "rankvalg",
+  "bnj1442": "bnj906",
+  "axsepg2": "elirrv",
+  "ranksng": "ranksn",
+  "epinid0": "nelaneq",
+  "elirr": "elirrv",
+  "ac6s6f": "ac6s6",
+  "bnj864": "bnj852",
+  "bnj1501": "bnj60",
+  "extdggt0": "drngdimgt0",
+  "bnj1489": "bnj1321",
+  "kardcard2a": "kardeng",
+  "oenassex": "elneq",
+  "rankop": "unir1",
+  "ranklim": "rankpw",
+  "sucdifsn2": "disjcsn",
+  "algextdeglem6": "lmicdim",
+  "elhf2g": "elhf2",
+  "axpowndlem4": "axpowndlem3",
+  "acsmapd": "ac6sg",
+  "hta": "scottex",
+  "trisecnconstr": "cos9thpinconstr",
+  "bnj544": "bnj543",
+  "grucollcld": "gruscottcld",
+  "grothprim": "axgroth4",
+  "nmobndseqiALT": "ac6n",
+  "scottexsOLD": "scottexOLD",
+  "bnj1493": "bnj1312",
+  "scottex2OLD": "scottexOLD",
+  "disjsuc2": "disjressuc2",
+  "suc11reg": "en2lp",
+  "rankuni2": "unir1",
+  "dford5reg": "zfregfr",
+  "tr0el": "zfregs",
+  "ccfldextdgrr": "dimval",
+  "lmicdim": "lmimdim",
+  "inf3lem6": "inf3lem5",
+  "ttc0elw": "tr0elw",
+  "hsmex3": "hsmex2",
+  "ac6s3": "ac6s2",
+  "hftr": "hfelhf",
+  "rlmdim": "dimval",
+  "dford3lem2": "setindtrs",
+  "bj-pinftynrr": "bj-inftyexpidisj",
+  "r1val2": "rankr1a",
+  "dford2": "zfregfr",
+  "clsk1independent": "clsk1indlem1",
+  "grumnudlem": "grucollcld",
+  "dimcl": "dimval",
+  "bnj571": "bnj558",
+  "axregs": "zfregs2",
+  "rankpr": "unir1",
+  "rank0": "rankeq0",
+  "ac6gf": "ac6sg",
+  "lvecdim": "acsexdimd",
+  "disjressuc2": "elneq",
+  "tgoldbachgt": "tgoldbachgtd",
+  "1enumkard": "kardenir",
+  "pibt2": "ac6s",
+  "axrepprim": "axrepnd",
+  "presucmap": "eupre2",
+  "ac6sf": "ac6s",
+  "grurankrcld": "r1rankid",
+  "ac6mapd": "ac6sg",
+  "algextdeglem4": "lmimdim",
+  "axunndlem1": "en2lp",
+  "elnanelprv": "elnanel",
+  "ressucdifsn2": "disjcsn",
+  "distel": "elirrv",
+  "cp": "cplem2",
+  "elrspunidl": "ac6sg",
+  "setrec1lem3": "bnd2d",
+  "mnurndlem2": "mnurndlem1",
+  "elirrvALT": "zfregfr",
+  "cyc3genpm": "cyc3genpmlem",
+  "dominf": "inf3lem6",
+  "kardval": "scottex",
+  "bnj1204": "bnj1228",
+  "lmimdim": "dimval",
+  "nd1": "elirrv",
+  "kardeng": "kardval",
+  "gruex": "rankr1a",
+  "extdgcl": "dimcl",
+  "rankpw": "unir1",
+  "axac": "dfac0",
+  "unbndrank": "bndrank",
+  "en3lp": "zfreg",
+  "rankss": "unir1",
+  "bnj998": "bnj910",
+  "kardcard2": "kardeng",
+  "dimkerim": "dimval",
+  "sucmapleftuniq": "suc11reg",
+  "rankval3": "unir1",
+  "cplem2OLD": "scottexOLD",
+  "bnj1415": "bnj1414",
+  "rankr1a": "ssrankr1",
+  "exnel": "elirrv",
+  "rankun": "unir1",
+  "press": "sucpre",
+  "bj-minftynrr": "bj-inftyexpidisj",
+  "assarrginv": "assalactf1o",
+  "setind": "zfregs",
+  "epnsymrel": "epnsym",
+  "ruALT": "ruv",
+  "constrextdg2": "constrextdg2lem",
+  "omsmeas": "omssubadd",
+  "elirrvOLDOLD": "zfregcl",
+  "unidifsnel": "suc11reg",
+  "extdg1id": "dimval",
+  "rankuniss": "rankuni",
+  "r1limwun": "rankuni",
+  "ac6s3f": "ac6sf",
+  "bnj554": "bnj551",
+  "axinfprim": "axinfnd",
+  "elrgspnsubrun": "elrgspnsubrunlem2",
+  "rtelextdg2lem": "algextdeg",
+  "constrextdg2lem": "constrelextdg2",
+  "infeq5": "inf3lem7",
+  "ranksn": "unir1",
+  "tgoldbachgtde": "hgt750leme",
+  "inf3lem4": "inf3lem3",
+  "ac9s": "ac6s4",
+  "hgt750lema": "fsumiunle",
+  "kardfn": "scottex",
+  "bj-restreg": "zfreg",
+  "bj-ccinftydisj": "bj-inftyexpidisj",
+  "rankvalg": "rankval",
+  "setindtr": "zfreg",
+  "bnj929": "bnj927",
+  "dfac12a": "unir1",
+  "dfsuccl3": "exeupre2",
+  "setindtrs": "setindtr",
+  "foresf1o": "ac6sg",
+  "epnsym": "cnvepnep",
+  "inf3": "inf3lem7",
+  "suceldisj": "elirr",
+  "nd3": "elirrv",
+  "axacndlem1": "nd1",
+  "finextalg": "extdgfialg",
+  "elpotr": "elirrv",
+  "eupre2": "exeupre",
+  "disjcsn": "elirr",
+  "bnj945": "bnj941",
+  "2sqr3nconstr": "constrcon",
+  "zfcndpow": "axpownd",
+  "zfcndac": "axacnd",
+  "bnj1311": "bnj1228",
+  "bndrank": "rankid",
+  "bnj1326": "bnj1311",
+  "tz9.13": "setind",
+  "preel": "sucpre",
+  "bnj69": "bnj1189",
+  "mnurnd": "mnurndlem2",
+  "bj-inftyexpitaudisj": "bj-nsnid",
+  "dfac1": "dfac7",
+  "kardval2": "kardval",
+  "ralndv1": "elirrv",
+  "kardeq0": "kardval",
+  "axpowg3": "elirrv",
+  "ac6sg": "ac6s",
+  "axpowg2": "elirrv",
+  "elsetrecslem": "setrec1",
+  "locfinref": "locfinreflem",
+  "ac6s2": "ac6s",
+  "extdgid": "rlmdim",
+  "ruv": "elirr",
+  "ac6s": "bnd2",
+  "kard0b": "kardeng",
   "noinfep": "zfregfr",
+  "elpg": "elsetrecs",
+  "kardenir": "kardeng",
+  "esumiun": "aciunf1",
+  "setind2": "setind",
+  "cmpfiref": "cmpcref",
+  "frlmdim": "dimval",
+  "axregprim": "axregnd",
+  "scottexOLD": "bndrank",
+  "bnj1414": "bnj1408",
+  "rankxpl": "rankuniss",
+  "hsmex2": "unir1",
+  "bnj535": "disjcsn",
+  "setinds": "setind",
+  "dfttc4": "zfreg",
+  "ac6n": "ac6s",
+  "extdgfialg": "extdgfialglem1",
+  "rankpwg": "rankpw",
+  "ruvALT": "elirrv",
+  "preleq": "preleqg",
+  "bnj551": "suc11reg",
+  "bnj557": "bnj551",
+  "trelpss": "zfregfr",
+  "aciunf1": "aciunf1lem",
+  "grurankcld": "unir1",
+  "bnj601": "bnj600",
+  "assafld": "assarrginv",
+  "nlpfvineqsn": "ac6sg",
+  "rankelg": "rankel",
+  "pcmplfinf": "locfinref",
+  "dfac7": "dfac2",
+  "dimlssid": "dimval",
+  "zfregs": "zfregfr",
+  "extdgfialglem1": "dimval",
+  "ttcwf2": "zfreg",
+  "suceqsneq": "suc11reg",
+  "algextdeglem8": "dimpropd",
+  "hgt750leme": "hgt750lema",
+  "bnj1006": "bnj945",
+  "rankr1g": "unir1",
+  "tr0elw": "zfreg",
+  "disjsuc": "disjsuc2",
+  "axpowndlem3": "nd3",
+  "onsupmaxb": "elirrv",
   "bnj1421": "bnj1417",
-  "exeupre2": "mopre"
+  "tgoldbachgtd": "tgoldbachgtda",
+  "axtcond": "elirrv",
+  "onvf1odlem1": "tz9.13g",
+  "kardexOLD": "scottexOLD",
+  "r1wunlim": "r1limwun",
+  "setrec1": "setrec1lem3",
+  "scottex": "bndrank",
+  "ackardcard": "kardcard2",
+  "zfcndinf": "axinfnd",
+  "zfregs2": "zfregs",
+  "bnj944": "bnj929",
+  "hfext": "hfelhf",
+  "rankwflem": "unir1",
+  "axinf2": "inf3",
+  "dfac11": "r1rankid",
+  "zfregfr": "zfreg",
+  "unidifsnne": "suc11reg",
+  "sucpre": "presucmap",
+  "ptpconn": "ac6s2",
+  "constrelextdg2": "rtelextdg2",
+  "ttc0el": "tr0el",
+  "bnj1321": "bnj1326",
+  "bnj1228": "bnj69",
+  "nd4": "nd3",
+  "onsetrec": "setrec1",
+  "sucdifsn": "sucdifsn2",
+  "nelscottrankgt": "scottrankeqel",
+  "prv1n": "elirr",
+  "ac6s4": "ac6s2",
+  "en2lp": "zfregfr",
+  "cos9thpinconstrlem2": "constrcon",
+  "ac6s6": "ac6s3f",
+  "zarcmp": "zarcmplem",
+  "rankelun": "rankun",
+  "elscottrank": "dfscott2",
+  "acunirnmpt2f": "ac6sf2",
+  "zfregclOLD": "axreg2",
+  "cmppcmp": "cmpcref",
+  "inf3lem5": "inf3lem4",
+  "eupre": "eupre2",
+  "dfac12": "dfac12a",
+  "bj-nsnid": "en2lp",
+  "dford3": "dford3lem2",
+  "bnj1384": "bnj1326",
+  "setinds2f": "setinds",
+  "bnd": "cp",
+  "kardex": "scottex",
+  "fldextrspunlsplem": "ac6mapd",
+  "reff": "ac6sg",
+  "bnj1423": "bnj1442",
+  "bnj543": "bnj535",
+  "oenass": "oenassex",
+  "oaomoencom": "elneq",
+  "cnvepnep": "en2lp",
+  "acunirnmpt2": "ac6s",
+  "dimpropd": "dimval",
+  "acsmap2d": "acsmapd",
+  "dimval": "lvecdim",
+  "acsinfd": "acsmap2d",
+  "grumnud": "grumnudlem",
+  "nelaneqOLDOLD": "elneq",
+  "bnj906": "bnj852",
+  "sucprcreg": "elirr",
+  "gch2": "dfac12",
+  "nelaneq": "elirr",
+  "axnulg": "elirrv",
+  "axacprim": "axacnd",
+  "elrgspnsubrunlem2": "ac6mapd",
+  "lssdimle": "dimval",
+  "jech9.3": "unir1",
+  "bj-inftyexpidisj": "en3lp",
+  "bnj927": "disjcsn",
+  "r1rankid": "unir1",
+  "clsk1indlem1": "suc11reg",
+  "lsatdim": "dimval",
+  "rankid": "unir1",
+  "tngdim": "dimpropd",
+  "elneq": "elirr",
+  "extdgmul": "fedgmul",
+  "dfac2": "dfac2b",
+  "dfuniv2": "grumnueq",
+  "assalactf1o": "lvecendof1f1o",
+  "inf3lem3": "zfreg",
+  "rr-grothprimbi": "grumnueq",
+  "inf3lem7": "inf3lem6",
+  "axgroth3": "dominf",
+  "lbslelsp": "lvecdim",
+  "bnd2": "bnd",
+  "axacndlem3": "nd3",
+  "nelaneqOLD": "elirr",
+  "elnotel": "en2lp",
+  "acsexdimd": "acsinfdimd",
+  "cos9thpinconstr": "cos9thpinconstrlem2",
+  "onvf1odlem2": "onvf1odlem1",
+  "rankeq0": "unir1",
+  "exeupre2": "mopre",
+  "axacndlem2": "nd1",
+  "zarcmplem": "elrspunidl",
+  "dfscott2": "rankfn",
+  "cplem2": "scottex",
+  "axsepg4": "elirrv",
+  "tgoldbachgtda": "tgoldbachgtde",
+  "qusdimsum": "dimkerim",
+  "ctbssinf": "ac6s2",
+  "dfac0": "dfac7",
+  "lvecdim0i": "dimval",
+  "zfcndreg": "axregnd",
+  "rankr1": "rankr1g",
+  "aciunf1lem": "acunirnmpt2f",
+  "fsumiunle": "aciunf1",
+  "mh-setind": "setind"
  },
  "gateways": [
   {
@@ -1067,12 +1069,12 @@
    "total_below": 43
   },
   {
-   "gateway": "bnj558",
+   "gateway": "bnj543",
    "sole_route_for": 1,
    "total_below": 42
   },
   {
-   "gateway": "bnj543",
+   "gateway": "bnj558",
    "sole_route_for": 1,
    "total_below": 42
   },
@@ -1117,12 +1119,12 @@
    "total_below": 32
   },
   {
-   "gateway": "bnj906",
+   "gateway": "bnj849",
    "sole_route_for": 1,
    "total_below": 31
   },
   {
-   "gateway": "bnj849",
+   "gateway": "bnj906",
    "sole_route_for": 1,
    "total_below": 31
   },
@@ -1147,13 +1149,13 @@
    "total_below": 26
   },
   {
-   "gateway": "r1rankid",
-   "sole_route_for": 2,
+   "gateway": "rankvalg",
+   "sole_route_for": 1,
    "total_below": 25
   },
   {
-   "gateway": "rankvalg",
-   "sole_route_for": 1,
+   "gateway": "r1rankid",
+   "sole_route_for": 2,
    "total_below": 25
   },
   {
@@ -1167,23 +1169,23 @@
    "total_below": 22
   },
   {
-   "gateway": "rankpw",
-   "sole_route_for": 2,
-   "total_below": 21
-  },
-  {
    "gateway": "elnotel",
    "sole_route_for": 2,
    "total_below": 21
   },
   {
-   "gateway": "kardval",
-   "sole_route_for": 3,
-   "total_below": 19
+   "gateway": "rankpw",
+   "sole_route_for": 2,
+   "total_below": 21
   },
   {
    "gateway": "bnj1190",
    "sole_route_for": 1,
+   "total_below": 19
+  },
+  {
+   "gateway": "kardval",
+   "sole_route_for": 3,
    "total_below": 19
   },
   {
@@ -1197,16 +1199,6 @@
    "total_below": 18
   },
   {
-   "gateway": "nd3",
-   "sole_route_for": 3,
-   "total_below": 17
-  },
-  {
-   "gateway": "bnj69",
-   "sole_route_for": 1,
-   "total_below": 17
-  },
-  {
    "gateway": "elneq",
    "sole_route_for": 5,
    "total_below": 17
@@ -1217,8 +1209,18 @@
    "total_below": 17
   },
   {
-   "gateway": "bnj1228",
-   "sole_route_for": 2,
+   "gateway": "nd3",
+   "sole_route_for": 3,
+   "total_below": 17
+  },
+  {
+   "gateway": "bnj69",
+   "sole_route_for": 1,
+   "total_below": 17
+  },
+  {
+   "gateway": "tz9.13",
+   "sole_route_for": 1,
    "total_below": 16
   },
   {
@@ -1227,9 +1229,19 @@
    "total_below": 16
   },
   {
-   "gateway": "tz9.13",
-   "sole_route_for": 1,
+   "gateway": "bnj1228",
+   "sole_route_for": 2,
    "total_below": 16
+  },
+  {
+   "gateway": "drngdimgt0",
+   "sole_route_for": 1,
+   "total_below": 14
+  },
+  {
+   "gateway": "lmicdim",
+   "sole_route_for": 1,
+   "total_below": 14
   },
   {
    "gateway": "nd1",
@@ -1242,22 +1254,12 @@
    "total_below": 14
   },
   {
-   "gateway": "lmicdim",
-   "sole_route_for": 1,
-   "total_below": 14
-  },
-  {
-   "gateway": "drngdimgt0",
-   "sole_route_for": 1,
-   "total_below": 14
-  },
-  {
    "gateway": "ac6sf2",
    "sole_route_for": 1,
    "total_below": 13
   },
   {
-   "gateway": "ac6mapd",
+   "gateway": "rankuni",
    "sole_route_for": 2,
    "total_below": 12
   },
@@ -1267,12 +1269,12 @@
    "total_below": 12
   },
   {
-   "gateway": "bnj1311",
+   "gateway": "inf3lem3",
    "sole_route_for": 1,
    "total_below": 12
   },
   {
-   "gateway": "acunirnmpt2f",
+   "gateway": "bnj1311",
    "sole_route_for": 1,
    "total_below": 12
   },
@@ -1282,18 +1284,8 @@
    "total_below": 12
   },
   {
-   "gateway": "dimkerim",
-   "sole_route_for": 1,
-   "total_below": 12
-  },
-  {
-   "gateway": "rankuni",
+   "gateway": "ac6mapd",
    "sole_route_for": 2,
-   "total_below": 12
-  },
-  {
-   "gateway": "inf3lem3",
-   "sole_route_for": 1,
    "total_below": 12
   },
   {
@@ -1302,22 +1294,17 @@
    "total_below": 12
   },
   {
-   "gateway": "inf3lem4",
+   "gateway": "dimkerim",
    "sole_route_for": 1,
-   "total_below": 11
+   "total_below": 12
   },
   {
-   "gateway": "aciunf1lem",
+   "gateway": "acunirnmpt2f",
    "sole_route_for": 1,
-   "total_below": 11
+   "total_below": 12
   },
   {
    "gateway": "exeupre2",
-   "sole_route_for": 2,
-   "total_below": 11
-  },
-  {
-   "gateway": "bnj1326",
    "sole_route_for": 2,
    "total_below": 11
   },
@@ -1327,12 +1314,62 @@
    "total_below": 11
   },
   {
-   "gateway": "lvecendof1f1o",
+   "gateway": "aciunf1lem",
+   "sole_route_for": 1,
+   "total_below": 11
+  },
+  {
+   "gateway": "bnj1326",
+   "sole_route_for": 2,
+   "total_below": 11
+  },
+  {
+   "gateway": "inf3lem4",
+   "sole_route_for": 1,
+   "total_below": 11
+  },
+  {
+   "gateway": "rankun",
+   "sole_route_for": 2,
+   "total_below": 10
+  },
+  {
+   "gateway": "kardeng",
+   "sole_route_for": 5,
+   "total_below": 10
+  },
+  {
+   "gateway": "elhf2",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "gruscottcld",
    "sole_route_for": 1,
    "total_below": 10
   },
   {
    "gateway": "inf3lem5",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "rankeq0",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "mnurndlem1",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "elrgspnsubrunlem2",
+   "sole_route_for": 1,
+   "total_below": 10
+  },
+  {
+   "gateway": "rlmdim",
    "sole_route_for": 1,
    "total_below": 10
   },
@@ -1347,42 +1384,7 @@
    "total_below": 10
   },
   {
-   "gateway": "kardeng",
-   "sole_route_for": 5,
-   "total_below": 10
-  },
-  {
-   "gateway": "elrgspnsubrunlem2",
-   "sole_route_for": 1,
-   "total_below": 10
-  },
-  {
-   "gateway": "rankun",
-   "sole_route_for": 2,
-   "total_below": 10
-  },
-  {
-   "gateway": "gruscottcld",
-   "sole_route_for": 1,
-   "total_below": 10
-  },
-  {
-   "gateway": "rlmdim",
-   "sole_route_for": 1,
-   "total_below": 10
-  },
-  {
-   "gateway": "mnurndlem1",
-   "sole_route_for": 1,
-   "total_below": 10
-  },
-  {
-   "gateway": "rankeq0",
-   "sole_route_for": 1,
-   "total_below": 10
-  },
-  {
-   "gateway": "elhf2",
+   "gateway": "lvecendof1f1o",
    "sole_route_for": 1,
    "total_below": 10
   },
@@ -1392,22 +1394,12 @@
    "total_below": 9
   },
   {
-   "gateway": "assalactf1o",
-   "sole_route_for": 1,
-   "total_below": 9
-  },
-  {
    "gateway": "bnj1321",
    "sole_route_for": 1,
    "total_below": 9
   },
   {
-   "gateway": "constrelextdg2",
-   "sole_route_for": 1,
-   "total_below": 9
-  },
-  {
-   "gateway": "bnj1442",
+   "gateway": "grucollcld",
    "sole_route_for": 1,
    "total_below": 9
   },
@@ -1417,7 +1409,12 @@
    "total_below": 9
   },
   {
-   "gateway": "grucollcld",
+   "gateway": "assalactf1o",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "constrelextdg2",
    "sole_route_for": 1,
    "total_below": 9
   },
@@ -1432,7 +1429,32 @@
    "total_below": 9
   },
   {
+   "gateway": "bnj1442",
+   "sole_route_for": 1,
+   "total_below": 9
+  },
+  {
+   "gateway": "mnurnd",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "rankfo",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
    "gateway": "constrextdg2lem",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "exeupre",
+   "sole_route_for": 1,
+   "total_below": 8
+  },
+  {
+   "gateway": "preleqg",
    "sole_route_for": 1,
    "total_below": 8
   },
@@ -1447,39 +1469,14 @@
    "total_below": 8
   },
   {
-   "gateway": "en3lp",
-   "sole_route_for": 1,
-   "total_below": 8
-  },
-  {
-   "gateway": "mnurnd",
-   "sole_route_for": 1,
-   "total_below": 8
-  },
-  {
-   "gateway": "preleqg",
-   "sole_route_for": 1,
-   "total_below": 8
-  },
-  {
-   "gateway": "rankfo",
-   "sole_route_for": 1,
-   "total_below": 8
-  },
-  {
-   "gateway": "exeupre",
-   "sole_route_for": 1,
-   "total_below": 8
-  },
-  {
    "gateway": "grumnudlem",
    "sole_route_for": 1,
    "total_below": 8
   },
   {
-   "gateway": "preleq",
+   "gateway": "en3lp",
    "sole_route_for": 1,
-   "total_below": 7
+   "total_below": 8
   },
   {
    "gateway": "setrec1",
@@ -1487,7 +1484,7 @@
    "total_below": 7
   },
   {
-   "gateway": "rankfn",
+   "gateway": "preleq",
    "sole_route_for": 1,
    "total_below": 7
   },
@@ -1502,8 +1499,28 @@
    "total_below": 7
   },
   {
-   "gateway": "grumnueq",
+   "gateway": "rankfn",
+   "sole_route_for": 1,
+   "total_below": 7
+  },
+  {
+   "gateway": "dfscott2",
    "sole_route_for": 2,
+   "total_below": 6
+  },
+  {
+   "gateway": "fldextrspunfld",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "bnj1493",
+   "sole_route_for": 1,
+   "total_below": 6
+  },
+  {
+   "gateway": "constrext2chnlem",
+   "sole_route_for": 1,
    "total_below": 6
   },
   {
@@ -1517,39 +1534,9 @@
    "total_below": 6
   },
   {
-   "gateway": "dfscott2",
+   "gateway": "grumnueq",
    "sole_route_for": 2,
    "total_below": 6
-  },
-  {
-   "gateway": "constrext2chnlem",
-   "sole_route_for": 1,
-   "total_below": 6
-  },
-  {
-   "gateway": "bnj1493",
-   "sole_route_for": 1,
-   "total_below": 6
-  },
-  {
-   "gateway": "fldextrspunfld",
-   "sole_route_for": 1,
-   "total_below": 6
-  },
-  {
-   "gateway": "axreg2",
-   "sole_route_for": 1,
-   "total_below": 5
-  },
-  {
-   "gateway": "rankuniss",
-   "sole_route_for": 1,
-   "total_below": 5
-  },
-  {
-   "gateway": "presucmap",
-   "sole_route_for": 1,
-   "total_below": 5
   },
   {
    "gateway": "scottexOLD",
@@ -1557,7 +1544,7 @@
    "total_below": 5
   },
   {
-   "gateway": "dfac2b",
+   "gateway": "rankuniss",
    "sole_route_for": 1,
    "total_below": 5
   },
@@ -1567,52 +1554,22 @@
    "total_below": 5
   },
   {
-   "gateway": "tz9.13g",
+   "gateway": "presucmap",
    "sole_route_for": 1,
-   "total_below": 4
+   "total_below": 5
   },
   {
-   "gateway": "constrcon",
-   "sole_route_for": 2,
-   "total_below": 4
+   "gateway": "axreg2",
+   "sole_route_for": 1,
+   "total_below": 5
   },
   {
-   "gateway": "axpowndlem3",
+   "gateway": "dfac2b",
    "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "bnj60",
-   "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "ranksn",
-   "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "hgt750leme",
-   "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "setinds",
-   "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "dfac2",
-   "sole_route_for": 1,
-   "total_below": 4
+   "total_below": 5
   },
   {
    "gateway": "foresf1o",
-   "sole_route_for": 1,
-   "total_below": 4
-  },
-  {
-   "gateway": "setindtr",
    "sole_route_for": 1,
    "total_below": 4
   },
@@ -1622,24 +1579,49 @@
    "total_below": 4
   },
   {
-   "gateway": "dfac7",
-   "sole_route_for": 2,
-   "total_below": 3
-  },
-  {
-   "gateway": "dominf",
+   "gateway": "ranksn",
    "sole_route_for": 1,
-   "total_below": 3
+   "total_below": 4
   },
   {
-   "gateway": "inf3lem7",
-   "sole_route_for": 2,
-   "total_below": 3
-  },
-  {
-   "gateway": "dfac12a",
+   "gateway": "bnj60",
    "sole_route_for": 1,
-   "total_below": 3
+   "total_below": 4
+  },
+  {
+   "gateway": "axpowndlem3",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "hgt750leme",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "setindtr",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "constrcon",
+   "sole_route_for": 2,
+   "total_below": 4
+  },
+  {
+   "gateway": "dfac2",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "tz9.13g",
+   "sole_route_for": 1,
+   "total_below": 4
+  },
+  {
+   "gateway": "setinds",
+   "sole_route_for": 1,
+   "total_below": 4
   },
   {
    "gateway": "setinds2f",
@@ -1647,7 +1629,7 @@
    "total_below": 3
   },
   {
-   "gateway": "ac6sf",
+   "gateway": "ressucdifsn2",
    "sole_route_for": 1,
    "total_below": 3
   },
@@ -1657,12 +1639,7 @@
    "total_below": 3
   },
   {
-   "gateway": "sucpre",
-   "sole_route_for": 2,
-   "total_below": 3
-  },
-  {
-   "gateway": "sucdifsn2",
+   "gateway": "setindtrs",
    "sole_route_for": 1,
    "total_below": 3
   },
@@ -1672,7 +1649,37 @@
    "total_below": 3
   },
   {
-   "gateway": "ressucdifsn2",
+   "gateway": "sucpre",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "ac6sf",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "inf3lem7",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "dfac7",
+   "sole_route_for": 2,
+   "total_below": 3
+  },
+  {
+   "gateway": "sucdifsn2",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "dfac12a",
+   "sole_route_for": 1,
+   "total_below": 3
+  },
+  {
+   "gateway": "dominf",
    "sole_route_for": 1,
    "total_below": 3
   },
@@ -1682,17 +1689,22 @@
    "total_below": 3
   },
   {
-   "gateway": "setindtrs",
-   "sole_route_for": 1,
-   "total_below": 3
-  },
-  {
    "gateway": "tgoldbachgtde",
    "sole_route_for": 1,
    "total_below": 3
   },
   {
-   "gateway": "dfac12",
+   "gateway": "setinds2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "axunnd",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "axgroth3",
    "sole_route_for": 1,
    "total_below": 2
   },
@@ -1702,7 +1714,57 @@
    "total_below": 2
   },
   {
-   "gateway": "axunnd",
+   "gateway": "ac6s4",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "dfuniv2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "zfregs2",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "axpownd",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "disjressuc2",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "hfelhf",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "axinfnd",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "cnvepnep",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "axacnd",
+   "sole_route_for": 2,
+   "total_below": 2
+  },
+  {
+   "gateway": "locfinreflem",
+   "sole_route_for": 1,
+   "total_below": 2
+  },
+  {
+   "gateway": "cmpcref",
    "sole_route_for": 2,
    "total_below": 2
   },
@@ -1717,48 +1779,8 @@
    "total_below": 2
   },
   {
-   "gateway": "axacnd",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
-   "gateway": "setinds2",
+   "gateway": "tgoldbachgtda",
    "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "hfelhf",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
-   "gateway": "locfinreflem",
-   "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "dford3lem2",
-   "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "elrspunidl",
-   "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "ac6s4",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
-   "gateway": "disjressuc2",
-   "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "axpownd",
-   "sole_route_for": 2,
    "total_below": 2
   },
   {
@@ -1767,27 +1789,7 @@
    "total_below": 2
   },
   {
-   "gateway": "cmpcref",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
    "gateway": "kardcard2",
-   "sole_route_for": 1,
-   "total_below": 2
-  },
-  {
-   "gateway": "axinfnd",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
-   "gateway": "zfregs2",
-   "sole_route_for": 2,
-   "total_below": 2
-  },
-  {
-   "gateway": "axgroth3",
    "sole_route_for": 1,
    "total_below": 2
   },
@@ -1797,12 +1799,12 @@
    "total_below": 2
   },
   {
-   "gateway": "tgoldbachgtda",
+   "gateway": "dford3lem2",
    "sole_route_for": 1,
    "total_below": 2
   },
   {
-   "gateway": "rankr1g",
+   "gateway": "dfac12",
    "sole_route_for": 1,
    "total_below": 2
   },
@@ -1812,62 +1814,17 @@
    "total_below": 2
   },
   {
-   "gateway": "dfuniv2",
+   "gateway": "elrspunidl",
    "sole_route_for": 1,
    "total_below": 2
   },
   {
-   "gateway": "cnvepnep",
+   "gateway": "rankr1g",
    "sole_route_for": 1,
    "total_below": 2
   },
   {
-   "gateway": "inf3",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "kardenir",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "locfinref",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "oenassex",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "disjsuc2",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "ackardcard",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "extdgfialg",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "epnsym",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "tr0elw",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "axsepg4",
+   "gateway": "dford3",
    "sole_route_for": 1,
    "total_below": 1
   },
@@ -1877,102 +1834,7 @@
    "total_below": 1
   },
   {
-   "gateway": "hsmex2",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "dford3",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "bj-nsnid",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "axgroth4",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "ac6gf",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "tr0el",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "dfsuccl3",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "ac6n",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "r1val2",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "omssubadd",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "dfac0",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "cyc3genpmlem",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "zarcmplem",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "elsetrecs",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "clsk1indlem1",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "nelaneq",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "scottrankeqel",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "gch2",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "ruv",
-   "sole_route_for": 1,
-   "total_below": 1
-  },
-  {
-   "gateway": "ac6s6",
+   "gateway": "ttcwf2",
    "sole_route_for": 1,
    "total_below": 1
   },
@@ -1982,7 +1844,42 @@
    "total_below": 1
   },
   {
-   "gateway": "elnanel",
+   "gateway": "ackardcard",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "gch2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "axsepg4",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "dfsuccl3",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac6gf",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "r1val2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "nelaneq",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac6s6",
    "sole_route_for": 1,
    "total_below": 1
   },
@@ -1992,12 +1889,117 @@
    "total_below": 1
   },
   {
-   "gateway": "ttcwf2",
+   "gateway": "axgroth4",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ac6n",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "tr0elw",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "hsmex2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "clsk1indlem1",
    "sole_route_for": 1,
    "total_below": 1
   },
   {
    "gateway": "tgoldbachgtd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "kardenir",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "elnanel",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "cyc3genpmlem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "dfac0",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "epnsym",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "ruv",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "omssubadd",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "extdgfialg",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "bj-nsnid",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "elsetrecs",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "locfinref",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "disjsuc2",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "inf3",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "tr0el",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "scottrankeqel",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "zarcmplem",
+   "sole_route_for": 1,
+   "total_below": 1
+  },
+  {
+   "gateway": "oenassex",
    "sole_route_for": 1,
    "total_below": 1
   }
