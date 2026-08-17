@@ -1,0 +1,69 @@
+proved statements: 47,621
+  reach choice: 583
+  in a family with >=2 choice-free siblings: 141
+  ...and reaching choice through exactly one step: 114
+
+Ranked candidates -- one gateway, and the library already treats the
+same subject without choice:
+
+  zartopon           stem -topon      via zartopn
+      choice-free siblings: cnfldtopon, distopon, dmtopon, fclstopon, flimtopon, fntopon, funtopon …
+  acunirnmpt         stem -rnmpt      via ac5b
+      choice-free siblings: disjrnmpt, disjrnmpt2, elrnmpt, elrnmpt1, esumrnmpt, esumrnmpt2, fisupclrnmpt …
+  acunirnmpt2        stem -rnmpt      via ac6s
+      choice-free siblings: disjrnmpt, disjrnmpt2, elrnmpt, elrnmpt1, esumrnmpt, esumrnmpt2, fisupclrnmpt …
+  ovnsubaddlem1      stem -subadd     via sge0xp
+      choice-free siblings: ablsubadd, ablsubadd23, binom2subadd, grpsubadd, hosubadd4, hvsubadd, lesubadd …
+  ovnsubaddlem2      stem -subadd     via ovnsubaddlem1
+      choice-free siblings: ablsubadd, ablsubadd23, binom2subadd, grpsubadd, hosubadd4, hvsubadd, lesubadd …
+  ovnsubadd          stem -subadd     via ovnsubaddlem2
+      choice-free siblings: ablsubadd, ablsubadd23, binom2subadd, grpsubadd, hosubadd4, hvsubadd, lesubadd …
+  ovnsubadd2         stem -subadd     via ovnsubadd2lem
+      choice-free siblings: ablsubadd, ablsubadd23, binom2subadd, grpsubadd, hosubadd4, hvsubadd, lesubadd …
+  dstfrvunirn        stem -unirn      via orvclteel
+      choice-free siblings: abfmpunirn, elfvunirn, elunirn, filunirn, fnunirn, fvssunirn, mreunirn …
+  ptpconn            stem -pconn      via ac6s2
+      choice-free siblings: cnpconn, conncompconn, connpconn, cvxpconn, indispconn, ispconn, ordtopconn …
+  smfconst           stem -fconst     via subsalsal
+      choice-free siblings: fconst, fconst2, fconst3, fconst4, fconst5, fconst6, fconst7 …
+  2sqr3nconstr       stem -constr     via constrcon
+      choice-free siblings: constr0, constr01, cos9thpinconstrlem1, fvconstr, fvconstr2, iconstr, isconstr …
+  cos9thpinconstrlem2 stem -constr     via constrcon
+      choice-free siblings: constr0, constr01, cos9thpinconstrlem1, fvconstr, fvconstr2, iconstr, isconstr …
+  cos9thpinconstr    stem -constr     via cos9thpinconstrlem2
+      choice-free siblings: constr0, constr01, cos9thpinconstrlem1, fvconstr, fvconstr2, iconstr, isconstr …
+  trisecnconstr      stem -constr     via cos9thpinconstr
+      choice-free siblings: constr0, constr01, cos9thpinconstrlem1, fvconstr, fvconstr2, iconstr, isconstr …
+  ttukey             stem -ttukey     via numth3
+      choice-free siblings: ttukeylem1, ttukeylem2, ttukeylem3, ttukeylem4, ttukeylem5, ttukeylem6, ttukeylem7
+  aleph1             stem -aleph      via alephsucpw
+      choice-free siblings: aleph0, aleph11, cardaleph, gchaleph, gchaleph2, infenaleph, unialeph
+  elwwlks2           stem -wwlks      via elwwlks2on
+      choice-free siblings: iswwlks, rusgrnumwwlks, rusgrnumwwlkslem, wlkiswwlks, wlkiswwlks1, wlkiswwlks2, wwlks
+  smfinfmpt          stem -nfmpt      via smfinf
+      choice-free siblings: climinfmpt, nfmpt, nfmpt1, sge0pnfmpt, sge0repnfmpt, xlimmnfmpt, xlimpnfmpt
+  smfliminfmpt       stem -nfmpt      via smfliminf
+      choice-free siblings: climinfmpt, nfmpt, nfmpt1, sge0pnfmpt, sge0repnfmpt, xlimmnfmpt, xlimpnfmpt
+  sigapisys          stem -pisys      via sigaclci
+      choice-free siblings: inelpisys, ispisys, ispisys2, ldgenpisyslem1, ldgenpisyslem2, ldgenpisyslem3
+  sitgaddlemb        stem -dlemb      via sibfinima
+      choice-free siblings: cdlemb, cdlemb2, cdlemb3, cdlemblem, dedlemb, efgredlemb
+  carageniuncllem2   stem -iuncl      via omeiunltfirp
+      choice-free siblings: caragenfiiuncl, carageniuncllem1, elpwiuncl, fiiuncl, saliuncl, subsaliuncllem
+  carageniuncl       stem -iuncl      via carageniuncllem2
+      choice-free siblings: caragenfiiuncl, carageniuncllem1, elpwiuncl, fiiuncl, saliuncl, subsaliuncllem
+  vitali2            stem -vitali     via weth
+      choice-free siblings: vitali, vitalilem1, vitalilem2, vitalilem3, vitalilem4, vitalilem5
+
+Gateways serving several split families at once -- fix one, several
+families stop paying:
+  numth3           10 candidates: carddom, cardid, cardsdom, cardval, domtri, filssufil, infxpidm, iundom
+  difelsiga        5 candidates: cldssbrsiga, dya2icobrsiga, dya2iocbrsiga, inelsiga, sigaldsys
+  fnrndomg         3 candidates: omeiunle, smflimlem6, subsaliuncl
+  subsalsal        2 candidates: smfconst, subsaluni
+  constrcon        2 candidates: 2sqr3nconstr, cos9thpinconstrlem2
+  sigaclci         2 candidates: difelsiga, sigapisys
+  s3wwlks2on       2 candidates: elwwlks2on, umgrwwlks2on
+  ssmxidl          2 candidates: dflringlem, zarcls1
+  dflring3         2 candidates: dflring4, fldlring
+  ac6sg            2 candidates: foresf1o, nlpfvineqsn

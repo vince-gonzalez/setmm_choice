@@ -1,0 +1,43 @@
+choice axioms identified from the data: ['ax-ac', 'ax-ac2']
+theorems reaching choice: 583 of 47,621 (1.22%)
+direct spenders (cite a choice axiom themselves): 3
+   ac2, axac3, zfac
+
+reach choice through EXACTLY ONE step : 418
+reach it through several              : 162
+
+gateways, by how many theorems route through them alone:
+  gateway         kind     sole route for   what it is
+  numth3          theorem              21
+  axac3           theorem               9
+  difelsiga       theorem               8
+  ac6sg           theorem               8
+  ac6s            theorem               7
+  fnrndomg        theorem               7
+  subsalsal       theorem               6
+  fodomg          theorem               6
+  axaci           theorem               6
+  tskuni          theorem               5
+  domtri          theorem               5
+  ssmxidl         theorem               4
+  prob01          theorem               4
+  dimval          theorem               4
+  sategoelfvb     theorem               4
+
+The shortlist: gateways that are themselves single-gateway, i.e. the
+dependence enters the library at one point and fans out from there.
+  numth3           routes   21 theorems, and itself reaches choice only via cardeqv
+  difelsiga        routes    8 theorems, and itself reaches choice only via sigaclci
+  ac6sg            routes    8 theorems, and itself reaches choice only via ac6s
+  ac6s             routes    7 theorems, and itself reaches choice only via ac6
+  fnrndomg         routes    7 theorems, and itself reaches choice only via fodomg
+  subsalsal        routes    6 theorems, and itself reaches choice only via subsaliuncl
+  fodomg           routes    6 theorems, and itself reaches choice only via numth3
+  axaci            routes    6 theorems, and itself reaches choice only via axac3
+  domtri           routes    5 theorems, and itself reaches choice only via numth3
+  ssmxidl          routes    4 theorems, and itself reaches choice only via zornn0
+  prob01           routes    4 theorems, and itself reaches choice only via measssd
+  dimval           routes    4 theorems, and itself reaches choice only via lvecdim
+
+418 of the 583 choice-reaching theorems hang off a single step.
+The top 5 gateways account for 53 of them.
