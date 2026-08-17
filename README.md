@@ -160,3 +160,30 @@ and the precomputed choice-reaching sets. Detect the choice axioms as *axioms
 whose users all lie inside the choice-reaching set* — testing for "present in
 every closure" returns nothing, because `ax-ac` and `ax-ac2` are alternatives
 and no theorem uses both.
+
+## mmapi — constructing proofs from code
+
+Metamath has a verifier a program can call and a proof assistant it cannot.
+mmj2 is a GUI: a person types into a worksheet and reads the result. It is
+Java, it is from 2017, and its own issue tracker carries a thread titled
+"mmj2 is difficult to install/compile/get running".
+
+Nothing in the ecosystem lets a *program* say "here is the statement I want and
+the lemma I think justifies it, give me the substitution and tell me what is
+left". `tools/mmapi.py` does.
+
+    from mmapi import Database
+    db = Database("set.mm")
+    sub = db.match("difun1",
+        r"|- ( U. S \ ( ( U. S \ A ) u. B ) ) = ( ( U. S \ ( U. S \ A ) ) \ B )")
+    #  A := U. S      B := ( U. S \ A )      C := B
+    db.hypotheses("eqeltrd", sub)   # what still has to be proved
+
+The piece that makes it work is unification, and in Metamath that is
+first-order matching over token sequences: a lemma's conclusion is a template
+whose variables stand for runs of tokens, and matching it against a goal is a
+parse with backtracking. `set` variables bind to one token, `wff` and `class`
+variables to a run. Everything downstream — pushing hypotheses in frame order,
+emitting reverse Polish — follows from having the substitution.
+
+No GUI, no Java, no install. Import it, call the CLI, or hand it to an agent.
