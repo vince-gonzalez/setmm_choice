@@ -24,7 +24,7 @@ library grew in, and it has stood since.
 
 Three edits, in one contiguous region:
 
-1. **`cmplelsiga` is added** — closure under complement relative to the base
+1. **`difunielsiga` is added** — closure under complement relative to the base
    set, `( ( S e. U. ran sigAlgebra /\ A e. S ) -> ( U. S \ A ) e. S )`.
    `issiga` asserts this by definition, but no statement in the library says
    it, so every use unfolds the definition inline.
@@ -47,7 +47,7 @@ loses the dependency as a consequence.
 |---|---:|---:|---:|
 | `difelsiga` before | 47 | 334 | 1050 |
 | `difelsiga` after | 24 | 188 | 381 |
-| `cmplelsiga` (new) | 23 | 106 | 142 |
+| `difunielsiga` (new) | 23 | 106 | 142 |
 
 The new `difelsiga` needs no disjoint-variable conditions; `$d x S` and
 `$d x B` were there for a dummy variable the proof no longer introduces.
@@ -77,27 +77,31 @@ Against set.mm at
     sha256  9486e76e0614f66877837d02ae973fdfde52c1343e5bcc3dbc66605cc55c7054
     bytes   51,130,373
 
-- `mmverify.py` accepts the patched file from `cmplelsiga` through the end of
+- `mmverify.py` accepts the patched file from `difunielsiga` through the end of
   the file, so every statement after the change re-verifies with the new
   proofs in place.
 - Both proofs were rejected under mutation — a swapped inference, a dropped
   final label, an altered conclusion — and the `$d` removal was checked the
-  same way, by confirming that stripping a `$d` `cmplelsiga` does need is
+  same way, by confirming that stripping a `$d` `difunielsiga` does need is
   refused.
 - The axiom closure was recomputed on the patched file. `difelsiga`,
-  `inelsiga`, `cmplelsiga` and `bayesth` no longer reach `ax-ac` or `ax-ac2`;
+  `inelsiga`, `difunielsiga` and `bayesth` no longer reach `ax-ac` or `ax-ac2`;
   `sigaclci` still does, unchanged.
 
 Not run here: `verify markup *` and `write source /rewrap`. The `~`
 references in the added comments were checked to resolve, and no line in the
 patched file exceeds 79 columns, but the proofs should be re-saved with
-`save proof cmplelsiga,difelsiga /compressed` before merge in case the
+`save proof difunielsiga,difelsiga /compressed` before merge in case the
 canonical encoder differs.
 
 ## Naming
 
-`cmplelsiga` follows `unelsiga` / `inelsiga` / `difelsiga`. `unidifelsiga` is
-the more literal reading of the statement. Happy to rename to whatever fits.
+`difunielsiga` follows `difunieq`, which leads with `dif` for the same
+`( U. A \ ... )` shape, and `unielsiga` for the `U. S` constituent. `unidif`
+is already taken for `U. ( A \ B )`, so `unidifelsiga` would read as the wrong
+parse, and `cmpl` is the class constant for multivariate polynomials besides
+meaning "complete" in `voncmpl` and `caragencmpl`. Happy to rename to whatever
+you prefer.
 
 ## Provenance
 

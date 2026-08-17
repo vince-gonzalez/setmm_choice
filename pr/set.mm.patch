@@ -1,7 +1,6 @@
 --- a/set.mm
 +++ b/set.mm
-@@ -550448,22 +550448,19 @@
-       BXSYMBWHWICAXBWJWAWKWTXFBVTWLWFVC $.
+@@ -550449,20 +550449,17 @@
    $}
  
    ${
@@ -24,7 +23,7 @@
 +       This is immediate from the definition, see ~ issiga , but the library
 +       states it nowhere in this form.  (Contributed by Vincent Gonzalez,
 +       17-Aug-2026.) $)
-+    cmplelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S ) ->
++    difunielsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S ) ->
 +      ( U. S \ A ) e. S ) $=
 +      ( csiga crn cuni wcel vx cv cdif wral com cdom wbr wi cpw wss w3a
 +      isrnsigau simprd simp2d wceq difeq2 eleq1d rspccva sylan ) BCDEFZBEZGHZIZ
@@ -33,25 +32,22 @@
    $}
  
    ${
-     $d x A $.  $d x B $.  $d x S $.
-@@ -550477,8 +550474,20 @@
-       ZCUTVAVDVELUSABCCMNVBDUAZOPQZVFGZCHZSZDCRZTZVCOPQZVDCHZUSUTVLVAUSCGZCHZVO
+@@ -550478,6 +550475,18 @@
        VFUBCHDCTZVLUSCVORUKVPVQVLIDCUCUDUEUFUTVAVMUSABCCUGNUTVAVLVMVNSZSZUSUTVAU
        LVCVKHVSABCUHVJVRDVCVKVFVCLZVGVMVIVNVFVCOPUIVTVHVDCVFVCUJUMUNUOUPNUQUR $.
    $}
 +
-+  $( A sigma-algebra is closed under class differences.  The proof goes
-+     through ~ cmplelsiga and ~ unelsiga rather than countable intersection,
-+     and so does not use ~ ax-ac .  (Contributed by Thierry Arnoux,
-+     13-Sep-2016.)  (Proof shortened by Vincent Gonzalez, 17-Aug-2026.) $)
++  $( A sigma-algebra is closed under class differences.  The proof goes through
++     ~ difunielsiga and ~ unelsiga rather than countable intersection, and so
++     does not use ~ ax-ac .  (Contributed by Thierry Arnoux, 13-Sep-2016.)
++     (Proof shortened by Vincent Gonzalez, 17-Aug-2026.) $)
 +  difelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S /\ B e. S ) ->
 +    ( A \ B ) e. S ) $=
 +    ( csiga crn cuni wcel w3a cdif cun wceq difun1 a1i wss simp1 simp2
-+    elsigass syl2anc dfss4 sylib difeq1d eqtrd cmplelsiga simp3 unelsiga
++    elsigass syl2anc dfss4 sylib difeq1d eqtrd difunielsiga simp3 unelsiga
 +    syl3anc eqeltrrd ) CDEFGZACGZBCGZHZCFZULAIZBJZIZABIZCUKUOULUMIZBIZUPUOURKUK
 +    ULUMBLMUKUQABUKAULNZUQAKUKUHUIUSUHUIUJOZUHUIUJPZACQRAULSTUAUBUKUHUNCGZUOCGU
 +    TUKUHUMCGZUJVBUTUKUHUIVCUTVAACUCRUHUIUJUDUMBCUEUFUNCUCRUG $.
  
    $( A sigma-algebra is closed under pairwise intersections.  (Contributed by
       Thierry Arnoux, 13-Dec-2016.) $)
-   inelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S /\ B e. S ) ->

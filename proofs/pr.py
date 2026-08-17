@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-r"""Build the set.mm patch: cmplelsiga added, difelsiga reproved without choice.
+r"""Build the set.mm patch: difunielsiga added, difelsiga reproved without choice.
 
     python proofs/pr.py
 
@@ -9,7 +9,7 @@ dependence is gone.
 
 Three things change, all in one contiguous region:
 
-  1. `cmplelsiga` is added -- closure under complement, which the library
+  1. `difunielsiga` is added -- closure under complement, which the library
      states nowhere despite `issiga` asserting it by definition.
   2. `difelsiga` and `unelsiga` swap places. `unelsiga` currently sits *after*
      `difelsiga`, so pairwise union did not exist when class difference was
@@ -46,22 +46,39 @@ PR = HERE.parent / "pr"
 # different form of the name.
 WHO = "Vincent Gonzalez"
 WHEN = "17-Aug-2026"
-NEW = "cmplelsiga"
+NEW = "difunielsiga"
 
 CMPL_STMT = ("|- ( ( S e. U. ran sigAlgebra /\\ A e. S ) ->\n"
              "{i}( U. S \\ A ) e. S )")
 DIF_STMT = ("|- ( ( S e. U. ran sigAlgebra /\\ A e. S /\\ B e. S ) ->\n"
             "{i}( A \\ B ) e. S )")
 
-CMPL_COMMENT = """$( A sigma-algebra is closed under complement relative to its base set.
-{i}This is immediate from the definition, see ~ issiga , but the library
-{i}states it nowhere in this form.  (Contributed by %s,
-{i}%s.) $)""" % (WHO, WHEN)
+CMPL_COMMENT = (
+    "A sigma-algebra is closed under complement relative to its base set. "
+    "This is immediate from the definition, see ~ issiga , but the library "
+    f"states it nowhere in this form.  (Contributed by {WHO}, {WHEN}.)")
 
-DIF_COMMENT = """$( A sigma-algebra is closed under class differences.  The proof goes
-{i}through ~ cmplelsiga and ~ unelsiga rather than countable intersection,
-{i}and so does not use ~ ax-ac .  (Contributed by Thierry Arnoux,
-{i}13-Sep-2016.)  (Proof shortened by %s, %s.) $)""" % (WHO, WHEN)
+DIF_COMMENT = (
+    "A sigma-algebra is closed under class differences. The proof goes "
+    f"through ~ {NEW} and ~ unelsiga rather than countable intersection, and "
+    "so does not use ~ ax-ac .  (Contributed by Thierry Arnoux, "
+    f"13-Sep-2016.)  (Proof shortened by {WHO}, {WHEN}.)")
+
+
+def wrap_comment(body: str, indent: int, width: int = 79) -> str:
+    """Wrap a comment the way set.mm does: `$(` on the first line, three-space
+    hanging indent, two spaces after a sentence. Hand-wrapping this is how a
+    long name silently pushes a line over the limit."""
+    import textwrap
+    lines = textwrap.wrap(body, width=width - indent - 3,
+                          fix_sentence_endings=True)
+    pad = " " * (indent + 3)
+    out = ["$( " + lines[0]] + [pad + ln for ln in lines[1:]]
+    if len(out[-1]) + 3 > width:
+        out.append(pad + "$)")
+    else:
+        out[-1] += " $)"
+    return "\n".join(out)
 
 
 def block(label, comment, statement, bloc, text, dollar_d=""):
@@ -75,10 +92,12 @@ def block(label, comment, statement, bloc, text, dollar_d=""):
     ind = 4 if wrap else 2
     i = " " * ind
     body = render(bloc, text, indent=ind + 2)
-    out = (f"{i}{comment.format(i=i + '   ')}\n"
+    out = (f"{i}{wrap_comment(comment, ind)}\n"
            f"{i}{label} $p {statement.format(i=i + '  ')} $=\n{body} $.\n")
     if wrap:
         out = f"  ${{\n{i}{dollar_d}\n{out}  $}}\n"
+    over = [ln for ln in out.splitlines() if len(ln) > 79]
+    assert not over, f"{label}: line over 79 columns: {over[0]!r}"
     return out
 
 
@@ -129,7 +148,7 @@ def main() -> None:
 
     was = size(text, db, "difelsiga")
 
-    # cmplelsiga mentions only S and A, so its frame is difelsiga's minus B.
+    # difunielsiga mentions only S and A, so its frame is difelsiga's minus B.
     mand = [p for p in db.frame("difelsiga")[1] if p[1] in ("S", "A")]
     bloc_c, txt_c = compress(db, NEW, assemble(db, compl.steps()),
                              frame=(set(), mand, [], compl.STMT.split()))
@@ -146,7 +165,7 @@ def main() -> None:
         dm = block("difelsiga", DIF_COMMENT, DIF_STMT, bloc_d, txt_d, dd_dif)
         return head + cm + "\n" + mid + "\n" + dm + tail, bloc_d, txt_d
 
-    # `x` never enters the new difelsiga -- it lives inside cmplelsiga and
+    # `x` never enters the new difelsiga -- it lives inside difunielsiga and
     # unelsiga -- so the dummy-variable conditions it has carried since 2016
     # may now be dead. Only keep them if dropping them fails.
     DD_C = "$d x A $.  $d x S $."
