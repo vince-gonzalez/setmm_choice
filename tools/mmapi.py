@@ -105,7 +105,7 @@ class Database:
                 return self._match(tmpl, goal, sub, ti + 1, gi + n)
             return False
         # `set` variables are single tokens; everything else may span a run
-        spans = ([1] if self.vartype[tok] == "set"
+        spans = ([1] if self.vartype[tok] == "setvar"
                  else range(1, len(goal) - gi + 1))
         for n in spans:
             if gi + n > len(goal):
@@ -165,20 +165,58 @@ class Database:
                      if kind == "$f" and val[1] == expr[0]]
             if cands:
                 return [min(cands, key=lambda l: ("." in l, len(l)))]
+        # A template can match in more than one way: `wral` is `A. x e. A ph`,
+        # and against `A. x e. ~P S ( ... )` the class variable A can take
+        # `~P` or `~P S`. The shortest binding is tried first and is wrong
+        # here, so every alternative has to be available, not just the first.
         for lab, tmpl in self._syntax_by_type().get(typecode, []):
-            sub = {}
-            if not self._match(tmpl, expr, sub):
-                continue
-            out = []
-            try:
-                for v in [t for t in tmpl if self.is_var(t)]:
-                    if v in sub:
+            # Emit in the constructor's FRAME order, not the order the
+            # variables happen to appear in its template. `wral` reads
+            # `A. x e. A ph` but its frame is [wff ph, setvar x, class A], and
+            # pushing in template order puts a setvar where a wff is expected.
+            # Most constructors agree, which is why this only bites on binders.
+            order = [v for _tc, v in self.frame(lab)[1]]
+            for sub in self._matches(tmpl, expr):
+                out, ok = [], True
+                for v in order:
+                    if v not in sub:
+                        continue
+                    try:
                         out.extend(self.build(sub[v], self.vartype[v],
                                               _depth + 1))
-            except MatchFailure:
-                continue
-            return out + [lab]
+                    except MatchFailure:
+                        ok = False
+                        break
+                if ok:
+                    return out + [lab]
         raise MatchFailure(f"cannot build {typecode}: {' '.join(expr)}")
+
+    def _matches(self, tmpl, goal, sub=None, ti=0, gi=0):
+        """Every substitution making `tmpl` match `goal`, shortest bindings
+        first."""
+        sub = {} if sub is None else sub
+        if ti == len(tmpl):
+            if gi == len(goal):
+                yield dict(sub)
+            return
+        tok = tmpl[ti]
+        if not self.is_var(tok):
+            if gi < len(goal) and goal[gi] == tok:
+                yield from self._matches(tmpl, goal, sub, ti + 1, gi + 1)
+            return
+        if tok in sub:
+            n = len(sub[tok])
+            if goal[gi:gi + n] == sub[tok]:
+                yield from self._matches(tmpl, goal, sub, ti + 1, gi + n)
+            return
+        spans = ([1] if self.vartype[tok] == "setvar"
+                 else range(1, len(goal) - gi + 1))
+        for n in spans:
+            if gi + n > len(goal):
+                break
+            sub[tok] = goal[gi:gi + n]
+            yield from self._matches(tmpl, goal, sub, ti + 1, gi + n)
+            del sub[tok]
 
     def hypotheses(self, label, sub):
         """The lemma's essential hypotheses under a substitution -- i.e. what
