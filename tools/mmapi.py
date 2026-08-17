@@ -123,6 +123,63 @@ class Database:
             out.extend(sub.get(tok, [tok]) if self.is_var(tok) else [tok])
         return out
 
+    # --------------------------------------------------- expression -> proof
+    def _syntax_by_type(self):
+        """Syntax constructors grouped by the typecode they produce.
+
+        These are the $a statements whose typecode is not |- : `cun` builds
+        `( A u. B )` as a class, `wcel` builds `A e. B` as a wff. Longest
+        templates first, so `( A \\ B )` is tried before a bare variable.
+        """
+        if getattr(self, "_syn", None) is None:
+            syn = {}
+            for lab, (kind, val) in self.mm.labels.items():
+                if kind != "$a":
+                    continue
+                concl = val[3]
+                if not concl or concl[0] == "|-":
+                    continue
+                syn.setdefault(concl[0], []).append((lab, list(concl[1:])))
+            for tc in syn:
+                syn[tc].sort(key=lambda p: -len(p[1]))
+            self._syn = syn
+        return self._syn
+
+    def build(self, expr, typecode, _depth=0):
+        """Reverse-Polish sequence that constructs `expr` at `typecode`.
+
+        Parsing and unification are the same operation here: find the syntax
+        constructor whose template matches the expression, then recurse into
+        whatever its variables bound to.
+        """
+        expr = expr.split() if isinstance(expr, str) else list(expr)
+        if _depth > 60:
+            raise MatchFailure(f"runaway parsing {' '.join(expr)}")
+        # A lone variable of the right type is built by its own $f label. A
+        # variable may have several: mmverify mangles block-local floating
+        # hypotheses with a dot (`cA.wceq`, `wcel.cA`) alongside the global
+        # declaration (`cA`). A proof written at the top level wants the
+        # global, so prefer the undotted label.
+        if len(expr) == 1 and self.vartype.get(expr[0]) == typecode:
+            cands = [lab for lab, (kind, val) in self.mm.labels.items()
+                     if kind == "$f" and val[1] == expr[0]]
+            if cands:
+                return [min(cands, key=lambda l: ("." in l, len(l)))]
+        for lab, tmpl in self._syntax_by_type().get(typecode, []):
+            sub = {}
+            if not self._match(tmpl, expr, sub):
+                continue
+            out = []
+            try:
+                for v in [t for t in tmpl if self.is_var(t)]:
+                    if v in sub:
+                        out.extend(self.build(sub[v], self.vartype[v],
+                                              _depth + 1))
+            except MatchFailure:
+                continue
+            return out + [lab]
+        raise MatchFailure(f"cannot build {typecode}: {' '.join(expr)}")
+
     def hypotheses(self, label, sub):
         """The lemma's essential hypotheses under a substitution -- i.e. what
         still has to be proved to use it."""
