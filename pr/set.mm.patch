@@ -1,0 +1,57 @@
+--- a/set.mm
++++ b/set.mm
+@@ -550448,22 +550448,19 @@
+       BXSYMBWHWICAXBWJWAWKWTXFBVTWLWFVC $.
+   $}
+ 
+   ${
+-    $d x S $.  $d x B $.
+-    $( A sigma-algebra is closed under class differences.  (Contributed by
+-       Thierry Arnoux, 13-Sep-2016.) $)
+-    difelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S /\ B e. S ) ->
+-      ( A \ B ) e. S ) $=
+-      ( vx csiga crn cuni wcel w3a cdif cpr cint wss wceq wral com cdom wbr cpw
+-      syl2anc cin simp2 elssuni difin2 cv isrnsigau simprd simp2d difeq2 eleq1d
+-      3syl wi rspccva sylan 3adant2 intprg eqtr4d c0 wne simp1 prex elpw sylibr
+-      prssi prct prnzg syl sigaclci syl22anc eqeltrd ) CEFGHZACHZBCHZIZABJZCGZB
+-      JZAKZLZCVNVOVQAUAZVSVNVLAVPMVOVTNVKVLVMUBZACUCABVPUDUKVNVQCHZVLVSVTNVKVMW
+-      BVLVKVPDUEZJZCHZDCOZVMWBVKVPCHZWFWCPQRWCGCHULDCSZOZVKCVPSMWGWFWIIDCUFUGUH
+-      WEWBDBCWCBNWDVQCWCBVPUIUJUMUNUOZWAVQACCUPTUQVNVKVRWHHZVRPQRZVRURUSZVSCHVK
+-      VLVMUTVNVRCMZWKVNWBVLWNWJWAVQACVDTVRCVQAVAVBVCVNWBVLWLWJWAVQACCVETVNWBWMW
+-      JVQACVFVGVRCVHVIVJ $.
++    $d x A $.  $d x S $.
++    $( A sigma-algebra is closed under complement relative to its base set.
++       This is immediate from the definition, see ~ issiga , but the library
++       states it nowhere in this form.  (Contributed by Vincent Gonzalez,
++       17-Aug-2026.) $)
++    cmplelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S ) ->
++      ( U. S \ A ) e. S ) $=
++      ( csiga crn cuni wcel vx cv cdif wral com cdom wbr wi cpw wss w3a
++      isrnsigau simprd simp2d wceq difeq2 eleq1d rspccva sylan ) BCDEFZBEZGHZIZ
++      BFZGBJZABFUGAIZBFZUFUGBFZUKUHKLMUHEBFNGBOJZUFBUGOPUNUKUOQGBRSTUJUMGABUHAU
++      AUIULBUHAUGUBUCUDUE $.
+   $}
+ 
+   ${
+     $d x A $.  $d x B $.  $d x S $.
+@@ -550477,8 +550474,20 @@
+       ZCUTVAVDVELUSABCCMNVBDUAZOPQZVFGZCHZSZDCRZTZVCOPQZVDCHZUSUTVLVAUSCGZCHZVO
+       VFUBCHDCTZVLUSCVORUKVPVQVLIDCUCUDUEUFUTVAVMUSABCCUGNUTVAVLVMVNSZSZUSUTVAU
+       LVCVKHVSABCUHVJVRDVCVKVFVCLZVGVMVIVNVFVCOPUIVTVHVDCVFVCUJUMUNUOUPNUQUR $.
+   $}
++
++  $( A sigma-algebra is closed under class differences.  The proof goes
++     through ~ cmplelsiga and ~ unelsiga rather than countable intersection,
++     and so does not use ~ ax-ac .  (Contributed by Thierry Arnoux,
++     13-Sep-2016.)  (Proof shortened by Vincent Gonzalez, 17-Aug-2026.) $)
++  difelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S /\ B e. S ) ->
++    ( A \ B ) e. S ) $=
++    ( csiga crn cuni wcel w3a cdif cun wceq difun1 a1i wss simp1 simp2
++    elsigass syl2anc dfss4 sylib difeq1d eqtrd cmplelsiga simp3 unelsiga
++    syl3anc eqeltrrd ) CDEFGZACGZBCGZHZCFZULAIZBJZIZABIZCUKUOULUMIZBIZUPUOURKUK
++    ULUMBLMUKUQABUKAULNZUQAKUKUHUIUSUHUIUJOZUHUIUJPZACQRAULSTUAUBUKUHUNCGZUOCGU
++    TUKUHUMCGZUJVBUTUKUHUIVCUTVAACUCRUHUIUJUDUMBCUEUFUNCUCRUG $.
+ 
+   $( A sigma-algebra is closed under pairwise intersections.  (Contributed by
+      Thierry Arnoux, 13-Dec-2016.) $)
+   inelsiga $p |- ( ( S e. U. ran sigAlgebra /\ A e. S /\ B e. S ) ->

@@ -91,5 +91,7 @@ def emit(label: str, statement: str, rpn: list[str], dollar_d: str = "") -> str:
     """Render a $p statement with an uncompressed proof."""
     body = " ".join(rpn)
     d = f"    {dollar_d}\n" if dollar_d else ""
-    return (f"${{\n{d}  {label} $p {statement} $=\n"
+    # leading newline: splicing straight after a `$}` would otherwise produce
+    # `$}${`, and Metamath tokens must be whitespace separated
+    return (f"\n${{\n{d}  {label} $p {statement} $=\n"
             f"    {body} $.\n$}}\n")
