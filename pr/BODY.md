@@ -77,22 +77,19 @@ Against set.mm at
     sha256  9486e76e0614f66877837d02ae973fdfde52c1343e5bcc3dbc66605cc55c7054
     bytes   51,130,373
 
-- `mmverify.py` accepts the patched file from `difunielsiga` through the end of
-  the file, so every statement after the change re-verifies with the new
-  proofs in place.
-- Both proofs were rejected under mutation — a swapped inference, a dropped
-  final label, an altered conclusion — and the `$d` removal was checked the
-  same way, by confirming that stripping a `$d` `difunielsiga` does need is
-  refused.
+- `metamath` 0.199.pre: `verify proof *` passes on the whole database,
+  `verify markup *` reports no errors, and `write source /rewrap` is a fixed
+  point — the file is already what the canonical writer produces, so it will
+  not move under CI.
+- Both proofs were also checked with `mmverify.py`, and rejected under
+  mutation: a swapped inference, a dropped final label, an altered
+  conclusion. The `$d` removal was checked the same way, by confirming that
+  stripping a `$d` that `difunielsiga` does need is refused.
 - The axiom closure was recomputed on the patched file. `difelsiga`,
   `inelsiga`, `difunielsiga` and `bayesth` no longer reach `ax-ac` or `ax-ac2`;
   `sigaclci` still does, unchanged.
 
-Not run here: `verify markup *` and `write source /rewrap`. The `~`
-references in the added comments were checked to resolve, and no line in the
-patched file exceeds 79 columns, but the proofs should be re-saved with
-`save proof difunielsiga,difelsiga /compressed` before merge in case the
-canonical encoder differs.
+Both proofs are as `save proof /compressed` writes them.
 
 ## Naming
 

@@ -7,6 +7,14 @@ Writes the patched database to `pr/set.mm`, verifies it from the first changed
 statement to the end of the file, and re-runs the axiom closure to confirm the
 dependence is gone.
 
+The compressed proofs this emits verify but are not byte-identical to what
+`metamath` writes -- the label bloc comes out in a different order. Finish with
+
+    metamath 'read set.mm' 'save proof difunielsiga /compressed'              'save proof difelsiga /compressed' 'write source out.mm /rewrap'
+
+and keep that output. Everything else it emits -- layout, comments, wrapping,
+the dropped $d -- already matches the canonical writer byte for byte.
+
 Three things change, all in one contiguous region:
 
   1. `difunielsiga` is added -- closure under complement, which the library
