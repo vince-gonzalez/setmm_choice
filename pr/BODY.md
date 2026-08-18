@@ -72,15 +72,16 @@ goes from 582 to 546.
 
 ## Verification
 
-Against set.mm at
+Against `develop` at 79deb54:
 
-    sha256  9486e76e0614f66877837d02ae973fdfde52c1343e5bcc3dbc66605cc55c7054
-    bytes   51,130,373
+    sha256  3b2be48cab99d769561d0b09ef8aaba2fe3444b3e23f8f3d93ecafceda8808e9
+    bytes   51,130,788
 
-- `metamath` 0.199.pre: `verify proof *` passes on the whole database,
-  `verify markup *` reports no errors, and `write source /rewrap` is a fixed
-  point — the file is already what the canonical writer produces, so it will
-  not move under CI.
+- `scripts/verify set.mm` passes: `verify proof *` on the whole database and
+  `verify markup * /top_date_skip` both report no errors.
+- `scripts/rewrap` is a fixed point — re-saving all 47,678 proofs with
+  `/compressed/fast` changes nothing, here or anywhere else in the file.
+- `scripts/regen-discouraged` reproduces `discouraged` byte for byte.
 - Both proofs were also checked with `mmverify.py`, and rejected under
   mutation: a swapped inference, a dropped final label, an altered
   conclusion. The `$d` removal was checked the same way, by confirming that

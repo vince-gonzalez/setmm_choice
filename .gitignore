@@ -8,3 +8,5 @@ __pycache__/
 pr/set.mm
 vendor/_n.json
 vendor/set_*.mm
+pr*/set.mm
+vendor/*.bak*
