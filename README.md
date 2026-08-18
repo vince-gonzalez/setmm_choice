@@ -8,6 +8,11 @@ each of those has a single place where the dependence could be removed.
 This repository is the study of those single places, and an attempt to remove
 one of them.
 
+It is the Metamath arm of **[gonzalgo](https://github.com/zengineco/gonzalgo)**,
+an axiom-provenance toolkit for Lean 4 and Metamath: which step of a proof
+introduced an axiom, and whether the statement being proved required it.
+gonzalgo produced the measurements; the scripts here act on one of them.
+
 ## The finding
 
 Choice enters set.mm at `ac2`, `axac3` and `zfac`. From there it fans out.
