@@ -42,25 +42,41 @@ class Step:
 def assemble(db: Database, steps: list[Step], verbose=False) -> list[str]:
     """Emit the reverse-Polish proof for the last step."""
     for i, st in enumerate(steps):
-        try:
-            st.sub = db.match(st.by, st.goal)
-        except MatchFailure as e:
-            raise MatchFailure(f"step {i} ({st.by}):\n{e}") from None
-
         _dv, mand, ess, _c = db.frame(st.by)
+        concl = db.conclusion(st.by)
 
-        # Matching the conclusion binds only the variables that appear in it.
-        # syl2anc concludes ( ph -> th ) while its hypotheses mention ps and
-        # ch, so those are fixed by the arguments rather than by the goal.
-        # Unify each essential hypothesis against the goal of the step supplied
-        # for it, extending the same substitution.
-        for h, argi in zip(ess, st.args):
-            if not db._match(list(h), steps[argi].goal, st.sub):
+        # A conclusion can match a goal several ways, and the shortest binding
+        # is often the wrong one: `eqbrtrid` concludes `( ph -> A R C )`, three
+        # class variables in a row, so against `( F " A ) ~<_ ( A i^i dom F )`
+        # the matcher will happily take A := `(`. Only the hypotheses reveal
+        # which split was meant, so try the alternatives and keep the first
+        # that lets every argument fit.
+        #
+        # Matching the conclusion also binds only the variables appearing in
+        # it: syl2anc concludes ( ph -> th ) and leaves ps and ch to be fixed
+        # by the arguments. Both concerns are handled by the same loop.
+        st.sub = None
+        failure = None
+        for cand in db._matches(concl, st.goal):
+            trial = dict(cand)
+            for h, argi in zip(ess, st.args):
+                if not db._match(list(h), steps[argi].goal, trial):
+                    failure = (argi, h)
+                    break
+            else:
+                st.sub = trial
+                break
+        if st.sub is None:
+            if failure is None:
                 raise MatchFailure(
-                    f"step {i} ({st.by}): argument step {argi} proves\n"
-                    f"    {' '.join(steps[argi].goal)}\n"
-                    f"  which does not fit the hypothesis\n"
-                    f"    {' '.join(h)}")
+                    f"step {i} ({st.by}) does not match:\n"
+                    f"  template {' '.join(concl)}\n"
+                    f"  goal     {' '.join(st.goal)}")
+            argi, h = failure
+            raise MatchFailure(
+                f"step {i} ({st.by}): no reading of the conclusion lets "
+                f"argument step {argi}\n    {' '.join(steps[argi].goal)}\n"
+                f"  fit the hypothesis\n    {' '.join(h)}")
         # The verifier pops len(floating) + len(essential) and reads the
         # floating ones first, so a proof pushes every variable's construction
         # before any hypothesis proof. mmverify keeps the two in separate
