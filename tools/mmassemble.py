@@ -31,17 +31,28 @@ from mmapi import Database, MatchFailure  # noqa: E402
 class Step:
     __slots__ = ("goal", "by", "args", "rpn", "sub")
 
-    def __init__(self, goal, by, args=()):
+    def __init__(self, goal, by=None, args=(), rpn=None):
         self.goal = goal.split() if isinstance(goal, str) else list(goal)
         self.by = by
         self.args = list(args)
-        self.rpn = None
+        # A step may arrive already proved -- a subtree lifted out of an
+        # existing proof. Then there is nothing to justify: it is a premise
+        # the rest of the assembly builds on.
+        self.rpn = list(rpn) if rpn is not None else None
         self.sub = None
 
 
 def assemble(db: Database, steps: list[Step], verbose=False) -> list[str]:
     """Emit the reverse-Polish proof for the last step."""
     for i, st in enumerate(steps):
+        if st.by is None:
+            if st.rpn is None:
+                raise MatchFailure(
+                    f"step {i} has neither a justifying lemma nor a proof")
+            if verbose:
+                print(f"  step {i:>2} {'(given)':<12} {len(st.rpn):>4} tokens  "
+                      f"{' '.join(st.goal)[:64]}")
+            continue
         _dv, mand, ess, _c = db.frame(st.by)
         concl = db.conclusion(st.by)
 
