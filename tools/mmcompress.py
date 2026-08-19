@@ -200,6 +200,12 @@ def render(bloc: list[str], text: str, indent: int = 6,
     rest = body[first:]
     for i in range(0, len(rest), room):
         lines.append(rest[i:i + room])
+    # The caller appends " $." to the last line, so it needs three characters
+    # the chunking never reserved. Spill them rather than run over.
+    if indent + len(lines[-1]) + 3 > width:
+        keep = width - indent - 3
+        lines.append(lines[-1][keep:])
+        lines[-2] = lines[-2][:keep]
     pad = " " * indent
     return "\n".join(pad + ln for ln in lines)
 

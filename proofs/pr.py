@@ -96,12 +96,20 @@ def block(label, comment, statement, bloc, text, dollar_d=""):
     neither is written bare at two-space indent, the way `inelsiga` is. So the
     indent, and whether there are braces at all, both follow from `$d`.
     """
+    # dollar_d=None: caller supplies its own ${ } wrapper (because it has $e
+    # hypotheses too), so indent as nested but emit no braces here.
+    nested = dollar_d is None
     wrap = bool(dollar_d)
-    ind = 4 if wrap else 2
+    ind = 4 if (wrap or nested) else 2
     i = " " * ind
     body = render(bloc, text, indent=ind + 2)
+    # Only substitute when the caller actually asked for a continuation indent.
+    # A set.mm statement can contain braces of its own -- a class abstraction
+    # like { x e. A | ... } is not a format field.
+    stmt = (statement.replace("{i}", i + "  ")
+            if "{i}" in statement else statement)
     out = (f"{i}{wrap_comment(comment, ind)}\n"
-           f"{i}{label} $p {statement.format(i=i + '  ')} $=\n{body} $.\n")
+           f"{i}{label} $p {stmt} $=\n{body} $.\n")
     if wrap:
         out = f"  ${{\n{i}{dollar_d}\n{out}  $}}\n"
     over = [ln for ln in out.splitlines() if len(ln) > 79]
