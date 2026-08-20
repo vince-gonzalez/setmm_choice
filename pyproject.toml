@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "setmm-choice"
+version = "0.1.0"
+description = "Find and repair avoidable axiom dependencies in Metamath databases: reach, dominator ranking, and a compressed-proof encoder."
+readme = "README-pypi.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Vincent Gonzalez", email = "vincegonzalez@me.com" }]
+keywords = [
+    "metamath",
+    "set.mm",
+    "formal verification",
+    "interactive theorem proving",
+    "axiom of choice",
+    "proof assistant",
+    "dependency analysis",
+    "dominator analysis",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/vince-gonzalez/setmm_choice"
+Source = "https://github.com/vince-gonzalez/setmm_choice"
+Issues = "https://github.com/vince-gonzalez/setmm_choice/issues"
+
+[project.scripts]
+setmm-necessity = "setmm_choice.necessity:main"
+setmm-impact = "setmm_choice.impact:main"
+setmm-guards = "setmm_choice.guard_census:main"
+setmm-domination = "setmm_choice.domination_class:main"
+mm-compress = "setmm_choice.mmcompress:_cli"
+mm-steps = "setmm_choice.mmsteps:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

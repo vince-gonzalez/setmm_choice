@@ -1,0 +1,7 @@
+mmverify.py, vendored in setmm_choice/_vendor/mmverify.py
+Copyright (C) 2002 Raph Levien  raph (at) acm (dot) org
+Copyright (C) David A. Wheeler and mmverify.py contributors
+SPDX-License-Identifier: MIT
+
+Distributed under the MIT License, the same terms as this package.
+Upstream: https://github.com/david-a-wheeler/mmverify.py

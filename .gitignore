@@ -10,3 +10,6 @@ vendor/_n.json
 vendor/set_*.mm
 pr*/set.mm
 vendor/*.bak*
+dist/
+build/
+*.egg-info/
