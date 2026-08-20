@@ -1,0 +1,189 @@
+freed,theorem,family_suffix,choice_free_siblings
+494,ax13v,,
+492,ax13lem1,,
+161,nfeqf2,feqf,
+80,nfeqf1,feqf,
+75,ax6e,,
+59,dveeq1,veeq,
+40,sb4b,,
+27,spim,,
+26,nfsb4t,,
+24,nfsbd,,
+21,axc11n,,
+21,cbv3,,
+18,dvelimf,limf,climf climf2 dvfsumrlimf elimf fnlimf hlimf lmclimf rlimf
+18,sb2,,
+16,aecom,ecom,linecom lspsnnecom necom tglinecom
+15,cbvralf,,
+15,hbae,,
+15,nfmod2,fmod,difmod0
+14,nfmod,fmod,difmod0
+13,nfabd,,
+13,nfmo,,
+12,aecoms,coms,alcoms ancoms eqcoms equcoms orcoms
+12,equsb1,qusb,equsb3 ring2idlqusb
+11,dveeq2,veeq,
+11,equsal,qusal,
+11,nfae,,
+11,nfeqf,feqf,
+10,axc11,,
+10,axc15,,
+10,dvelimh,,
+10,nfsb,,
+9,axc9,,
+9,bj-alequex,,
+8,cbv1,,
+8,cbvrexf,rexf,disjabrexf ssrexf
+8,equsalh,,
+8,hbsb2a,,
+8,nfsbcd,sbcd,rspesbcd spesbcd spsbcd
+7,cbvrex,,
+7,dvelim,elim,elrelsrelim eqvrelim lhpelim n0elim naddelim nelbrnelim nvelim oelim oelim2 rp-oelim2 symrelim
+7,dvelimf-o,,
+7,hbsb,,
+7,nfrald,,
+7,sbcom3,bcom,bj-subcom csbcom sbcom2 sbcom4 syl5ibcom
+6,ax12,,
+6,cbvral,vral,fzrevral fzrevral2 fzrevral3
+6,cbvralcsf,,
+6,cbvrexsv,,
+6,copsexg,sexg,abssexg ceqsexg cgsexg dmresexg lbsexg n0sexg pssexg qsexg resexg ssexg ssexgOLD tposexg
+6,dral1,,
+6,moexex,exex,ab2rexex ab2rexex2 abexex abrexex abrexex2 bj-biexex gexex gexexlem moexexlem oprabrexex2 rexex
+6,sbcnestgf,stgf,csbconstgf
+6,sbie,,
+5,2ax6elem,ax6e,bj-ax6elem2
+5,axextnd,,
+5,bj-dvelimdv1,limdv,2alimdv alimdv bj-cbvalimdv exlimdv ralimdv ralimdv2 rexlimdv
+5,bj-equsal1t,sal1t,ceqsal1t
+5,bj-hbsb3t,,
+5,cbv2,,
+5,cbvab,,
+5,cbval,bval,bj-cbval bj-nnf-cbval clmvsubval clmvsubval2 cndprobval dibval dibval2 gencbval glbval grpsubval hvaddsubval hvsubval kbval lcdvsubval ldualvsubval lmodvsubval2 logbval ltbval lubval mrsubval msubval relogbval resubval subval xkobval
+5,cbvexsv,,
+5,dvelimv,,
+5,hbabg,,
+5,opabid,pabid,bj-opelopabid opabid2
+5,oprabid,abid,bj-opelopabid necon1abid necon2abid necon3abid necon4abid opabid2 rabid rabid2 rp-abid
+5,sb8e,,
+5,sbco,,
+5,sbco2,,
+4,2ax6e,ax6e,bj-ax6elem2
+4,2moswap,swap,2reuswap 2reuswap2 2rmoswap cgr3swap12 cgr3swap13 cgr3swap23 cgraswap ditgswap f1ofvswap f1oprswap inagswap nic-swap opswap rabswap sqsubswap
+4,bj-equsal1ti,,
+4,cbvald,vald,angvald cjmulvald frlm0vald invrvald liminfvald limsupvald mnringmulrvald mnringvald mpocurryvald redivvald setsidvald sge0vald sqvald subsvald
+4,cbvrexv,rexv,ceqsrexv ss2rexv ssrexv
+4,dvelimnf,,
+4,nfeud2,,
+4,nfral,,
+4,sb3b,,
+4,sbid2,,
+4,spimed,,
+4,ssoprab2b,ab2b,
+4,wl-equsald,sald,0sald issald
+4,wl-sb8t,,
+3,2euswap,euswap,2reuswap 2reuswap2
+3,ax6,,
+3,axacnd,xacnd,
+3,axinfnd,nfnd,funfnd
+3,axpownd,xpownd,axpowndlem1
+3,axregnd,xregnd,
+3,axunnd,,
+3,bj-hbaeb2,,
+3,bj-nfs1t,-nfs1t,
+3,bj-spimt2,,
+3,cbvmptfg,,
+3,cbvralv,ralv,ceqsralv ss2ralv ssralv ssralv2 ssralv2VD
+3,cbvralv2,ralv,ceqsralv ss2ralv ssralv ssralv2 ssralv2VD
+3,cbvsbc,,
+3,csbnestgf,stgf,csbconstgf
+3,drsb1,,
+3,dveeq2-o,,
+3,dvelimdf,,
+3,eqoprab2b,ab2b,
+3,equsex,,
+3,frege55b,,
+3,hbnae,,
+3,nfcsbd,,
+3,nfcvf,,
+3,nfeud,,
+3,nfsabg,,
+3,sbeqal1,eqal,cdeqal sbceqal
+3,spime,pime,bj-nnf-spime bj-spime
+3,spimv,,
+3,ssopab2b,ab2b,
+3,wl-sbalnae,,
+2,2euex,,
+2,2sb5rf,,
+2,2uasbanh,,
+2,ax12indalem,x12inda,
+2,ax12v2-o,,
+2,ax13lem2,,
+2,ax6er,,
+2,axc10,,
+2,axrepnd,xrepnd,
+2,bj-ax6elem1,j-ax6e,bj-ax6elem2
+2,bj-axc14nf,,
+2,bj-cbv3ta,,
+2,bj-dvelimv,,
+2,bj-nfs1t2,-nfs1t,
+2,bnj985,,
+2,cbv1h,,
+2,cbval2,bval,bj-cbval bj-nnf-cbval clmvsubval clmvsubval2 cndprobval dibval dibval2 gencbval glbval grpsubval hvaddsubval hvsubval kbval lcdvsubval ldualvsubval lmodvsubval2 logbval ltbval lubval mrsubval msubval relogbval resubval subval xkobval
+2,cbvalv,,
+2,cbvex,bvex,bj-cbvex gencbvex gencbvex2
+2,cbvex2vv,,
+2,cbvexd,vexd,elfvexd fvexd ovexd
+2,cbviing,,
+2,cbviota,iota,aiotaexaiotaiota bj-nuliota bj-nuliotaALT cdlemeiota csbiota csbriota cvmliftiota cvmsiota dfaiota2 dfaiota3 dfatafv2iota dfiota2 dfiota3 dfiota4 ellimciota nfiota1 nfriota nfriota1 opabiota opiota reuabaiotaiota reuaiotaiota riota1 riota2 riota5 sbaniota sbiota1 sn-iotalem sniota snriota sup0riota
+2,cbviung,,
+2,cbvmptg,mptg,dmmptg elrnmptg fvmptg
+2,cbvrabcsf,,
+2,cbvreu,,
+2,cbvrexcsf,,
+2,cbvriota,riota,csbriota nfriota nfriota1 snriota sup0riota
+2,cbvrmo,,
+2,chvar,,
+2,csbnestg,,
+2,dfsb2,,
+2,drex1,,
+2,drnf1,,
+2,drnf2,,
+2,dveeq1-o,,
+2,dvelimdc,,
+2,eqopab2b,ab2b,
+2,equsb2,qusb,equsb3 ring2idlqusb
+2,euxfr2,uxfr,reuxfr reuxfr1
+2,frege54cor1b,,
+2,frege56b,,
+2,hbsb2,,
+2,hbsb3,,
+2,nfabg,,
+2,nfald2,fald,bifald bj-nfald efald efald2 nfald
+2,nfcdeq,cdeq,gcdeq gcdeq0 hashgcdeq lcmgcdeq sn-wcdeq
+2,nfcsb,,
+2,nfeu,,
+2,nfiotad,,
+2,nfnae,,
+2,nfreud,reud,cbvreud prproropreud
+2,nfrexd,,
+2,onfrALTlem1,nfrALT,onfrALTlem2 onfrALTlem2VD onfrALTlem3 onfrALTlem3VD onfrALTlem4 onfrALTlem4VD onfrALTlem5 onfrALTlem5VD
+2,onfrALTlem1VD,nfrALT,onfrALTlem2 onfrALTlem2VD onfrALTlem3 onfrALTlem3VD onfrALTlem4 onfrALTlem4VD onfrALTlem5 onfrALTlem5VD
+2,oprabbi,abbi,rabbi
+2,pgindnf,,
+2,ralrnmpt,lrnmpt,elrnmpt elrnmpt1 fisupclrnmpt nelrnmpt ralrnmpt3 suprclrnmpt
+2,rexlimdvaacbv,,
+2,sb7f,,
+2,sb8,,
+2,sb9,,
+2,sbcco,,
+2,sbcnestg,,
+2,sbeqal1i,,
+2,sbied,bied,csbied csbied2
+2,sbtrt,,
+2,spv,,
+2,wl-2sb6d,,
+2,wl-cbvalnaed,,
+2,wl-equsal1t,sal1t,ceqsal1t
+2,wl-nfae1,,
+2,wl-sbhbt,,

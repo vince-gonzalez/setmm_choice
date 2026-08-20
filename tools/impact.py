@@ -77,10 +77,20 @@ def family_index(labels):
     and up, kept only where at least three distinct labels agree, which is
     enough to separate a real family from a coincidence of spelling.
     """
+    # `lem1`, `lem2`, `ALT`, `OLD` are numbering and variant conventions, not
+    # family membership. Left in, they match `ax13lem1` against `aaliou3lem1`
+    # and `baerlem3lem1`, which share nothing but a counter.
+    def stem(lab):
+        s = re.sub(r"(?:ALT|OLD|VD)$", "", lab)
+        return re.sub(r"(?:lem)?\d*$", "", s) or lab
+
     groups = defaultdict(set)
     for lab in labels:
-        for k in range(4, min(len(lab), 13)):
-            groups[lab[-k:]].add(lab)
+        s = stem(lab)
+        if len(s) < 4:
+            continue
+        for k in range(4, min(len(s), 13)):
+            groups[s[-k:]].add(lab)
     fam = {}
     for suf, members in groups.items():
         if len(members) < 3:
