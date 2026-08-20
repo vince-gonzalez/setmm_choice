@@ -1,0 +1,35 @@
+{
+  "title": "setmm_choice: axiom-dependency analysis and proof repair for Metamath",
+  "description": "<p>The Metamath arm of <a href=\"https://github.com/vince-gonzalez/gonzalgo\">gonzalgo</a>.</p><p>Measures which theorems in a Metamath database depend on a given axiom, ranks them by how many other theorems would stop depending on it if each were repaired (dominator analysis over the proof DAG rooted at the axiom), and constructs and verifies replacement proofs against the stock verifiers.</p><p>Includes a census of the library's own <code>$j usage ... avoids</code> guard directives, which yields the <em>guard ratio</em> used to triage whether an axiom seam is worth working, and the general-domination defect class analysis showing that three general lemmas account for 38% of set.mm's axiom-of-choice cone.</p><p>Seven repairs built against set.mm, six submitted, one merged: pull request #5442 freed 36 theorems including Bayes' theorem from the axiom of choice.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Gonzalez, Vincent",
+      "orcid": "0009-0005-3640-014X"
+    }
+  ],
+  "keywords": [
+    "metamath",
+    "set.mm",
+    "formal verification",
+    "axiom of choice",
+    "proof assistant",
+    "dependency analysis",
+    "dominator analysis",
+    "interactive theorem proving"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/metamath/set.mm/pull/5442",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.21769846",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "setmm_choice: axiom-dependency analysis and proof repair for Metamath"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - given-names: Vincent
+    family-names: Gonzalez
+    orcid: "https://orcid.org/0009-0005-3640-014X"
+    email: vincegonzalez@me.com
+repository-code: "https://github.com/vince-gonzalez/setmm_choice"
+abstract: >-
+  The Metamath arm of gonzalgo. Measures which theorems in a Metamath database
+  depend on a given axiom, ranks them by how many other theorems would stop
+  depending on it if each were repaired (dominator analysis over the proof DAG
+  rooted at the axiom), and constructs and verifies replacement proofs.
+  Includes a census of the library's own `$j usage ... avoids` guard directives
+  and the general-domination defect class analysis. Seven repairs built against
+  set.mm, six submitted, one merged (PR #5442, freeing 36 theorems including
+  Bayes' theorem from the axiom of choice).
+keywords:
+  - metamath
+  - set.mm
+  - formal verification
+  - axiom of choice
+  - proof assistant
+  - dependency analysis
+  - dominator analysis
+license: MIT
