@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "setmm-choice"
+name = "mmforge"
 version = "0.1.0"
-description = "Find and repair avoidable axiom dependencies in Metamath databases: reach, dominator ranking, and a compressed-proof encoder."
+description = "Find avoidable axiom dependencies in Metamath databases, and build the proofs that remove them."
 readme = "README-pypi.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -15,10 +15,10 @@ keywords = [
     "set.mm",
     "formal verification",
     "interactive theorem proving",
-    "axiom of choice",
     "proof assistant",
+    "automated reasoning",
+    "axiom of choice",
     "dependency analysis",
-    "dominator analysis",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -35,17 +35,12 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/vince-gonzalez/setmm_choice"
-Source = "https://github.com/vince-gonzalez/setmm_choice"
-Issues = "https://github.com/vince-gonzalez/setmm_choice/issues"
+Homepage = "https://github.com/vince-gonzalez/mmforge"
+Source = "https://github.com/vince-gonzalez/mmforge"
+Issues = "https://github.com/vince-gonzalez/mmforge/issues"
 
 [project.scripts]
-setmm-necessity = "setmm_choice.necessity:main"
-setmm-impact = "setmm_choice.impact:main"
-setmm-guards = "setmm_choice.guard_census:main"
-setmm-domination = "setmm_choice.domination_class:main"
-mm-compress = "setmm_choice.mmcompress:_cli"
-mm-steps = "setmm_choice.mmsteps:main"
+mmforge = "mmforge.cli:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

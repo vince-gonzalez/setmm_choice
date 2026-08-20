@@ -9,7 +9,7 @@ is Java, it is from 2017, and its own issue tracker carries a thread titled
 Nothing in the ecosystem lets a *program* say "here is the statement I want and
 the lemmas I think justify it, give me a proof". That is what this is.
 
-    from setmm_choice.mmapi import Database
+    from mmforge.mmapi import Database
     db = Database("set.mm")
     sub = db.match("unelsiga", "|- ( ( S e. U. ran sigAlgebra /\\ A e. S /\\ "
                               "B e. S ) -> ( A u. B ) e. S )")

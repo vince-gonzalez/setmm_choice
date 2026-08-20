@@ -45,8 +45,23 @@ def encode_int(n: int) -> str:
     return pre + out
 
 
+class IncompleteProof(ValueError):
+    """A proof carrying `?`, Metamath's marker for a step not yet proved."""
+
+
 def decode(s: str) -> list[int]:
-    """Inverse of encode_int over a whole letter string; -1 marks a Z."""
+    """Inverse of encode_int over a whole letter string; -1 marks a Z.
+
+    The continuation branch used to accept any character that was not `Z` or
+    `A`-`T`, which quietly swallowed `?`. A `?` is worth 63 in `ord`, so it
+    produced a large negative index that then passed an `i < end` bounds check
+    and indexed a list from the wrong end. `mreclat` in set.mm is such a proof —
+    its own comment describes it as unfinished — and it surfaced as
+    `IndexError: list index out of range` a hundred and seventy steps later,
+    naming neither the character nor the proof.
+
+    Both characters outside the alphabet now raise where they occur.
+    """
     out, cur = [], 0
     for ch in s:
         if ch == "Z":
@@ -54,8 +69,14 @@ def decode(s: str) -> list[int]:
         elif "A" <= ch <= "T":
             out.append(20 * cur + ord(ch) - 65)
             cur = 0
-        else:
+        elif "U" <= ch <= "Y":
             cur = 5 * cur + ord(ch) - 84
+        elif ch == "?":
+            raise IncompleteProof(
+                "compressed proof contains '?': at least one step is unproved")
+        else:
+            raise ValueError(
+                f"unexpected character {ch!r} in a compressed proof")
     return out
 
 

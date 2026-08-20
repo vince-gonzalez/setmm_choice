@@ -1,6 +1,6 @@
 # src/ — the installable package
 
-`src/setmm_choice/` is what `pip install setmm-choice` gets. It is the same code
+`src/mmforge/` is what `pip install mmforge` gets. It is the same code
 as `tools/` and `analysis/`, with three differences forced by packaging:
 
 - the `sys.path` bootstrap at the top of each script is gone
@@ -19,9 +19,9 @@ Those scripts are the provenance of six pull requests currently in review
 against `metamath/set.mm`. They stay working until those resolve.
 
 **This duplication is a defect with an expiry date.** When the PRs are settled,
-the repair scripts should call `python -m setmm_choice.necessity` and import
+the repair scripts should call `python -m mmforge.necessity` and import
 from the installed package, and `tools/` and `analysis/` should be deleted. Until
 then, a change to an analysis tool has to be made in both places.
 
-Files affected: `tools/` (14) and `analysis/` (2) against `src/setmm_choice/`
+Files affected: `tools/` (14) and `analysis/` (2) against `src/mmforge/`
 (17, the extra being `__init__.py`).
