@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mmforge"
-version = "0.1.1"
+version = "0.1.0"
 description = "Find avoidable axiom dependencies in Metamath databases, and build the proofs that remove them."
 readme = "README-pypi.md"
 requires-python = ">=3.10"
