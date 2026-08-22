@@ -18,13 +18,21 @@ object submitted: a Metamath proof is the artifact.
 """
 from __future__ import annotations
 
+import os
 import pickle
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-DEFAULT = Path(r"C:\Users\Admin\OneDrive\Desktop\universal-cover\axioms\closure.pkl")
-path = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT
+#: The closure pickle: first argument, or $SETMM_CLOSURE.  There is no default.
+#: One used to be hard-coded to an absolute path, which named a home directory
+#: in a published wheel and worked on a single machine.
+if len(sys.argv) > 1:
+    path = Path(sys.argv[1])
+elif os.environ.get("SETMM_CLOSURE"):
+    path = Path(os.environ["SETMM_CLOSURE"])
+else:
+    raise SystemExit("usage: setmm_necessity.py <closure.pkl>   (or set SETMM_CLOSURE)")
 d = pickle.loads(path.read_bytes())
 clos, refs, kind = d["clos"], d["refs"], d["kind"]
 full = set(d["full"])
