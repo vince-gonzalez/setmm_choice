@@ -35,7 +35,7 @@ import sys
 from collections import defaultdict, deque
 from pathlib import Path
 
-STMT = re.compile(r"(?ms)^[ \t]*(\S+)[ \t]+\$([pa])[ \t](.*?)\$\.")
+STMT = re.compile(r"(?ms)^[ \t]*(\S+)[ \t]+\$([pa])\s(.*?)\$\.")
 COMMENT = re.compile(r"\$\([^$]*(?:\$(?!\))[^$]*)*\$\)")
 
 
