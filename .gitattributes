@@ -1,0 +1,5 @@
+# Byte-identical checkouts on every platform, so a build does not depend
+# on which machine cloned the repository.
+* text=auto eol=lf
+*.png -text
+*.jpg -text
